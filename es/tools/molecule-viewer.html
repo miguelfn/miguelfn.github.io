@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Visor molecular con zoom y rotación: elementos, geometría y enlaces de más de 120 moléculas inorgánicas y orgánicas. Nombre IUPAC, fórmula, peso, descripción y usos.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://miguelfn.github.io/es/tools/molecule-viewer.html">
+  <link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/molecule-viewer.html">
+  <link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/molecule-viewer.html">
+
+  <meta property="og:title" content="Descripción y visor de moléculas — Suite Química">
+  <meta property="og:description" content="Visor molecular con zoom y rotación: elementos, geometría y enlaces de más de 120 moléculas inorgánicas y orgánicas. Nombre IUPAC, fórmula, peso, descripción y usos.">
+  <meta property="og:url" content="https://miguelfn.github.io/es/tools/molecule-viewer.html">
+  <meta property="og:type" content="website">
+
+  <title>Descripción y visor de moléculas — Suite Química</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/tools.css" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PEQ44QZ63H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PEQ44QZ63H');
+</script>
+<body>
+  <nav>
+    <a class="nav-logo" href="../index.html">
+      <img src="../img/logo.webp" alt="Chemical Suite logo" />
+      <span class="name">Suite</span><span class="suite">Química</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">Descripción</a></li>
+      <li><a href="../index.html#features">Funciones</a></li>
+      <li><a href="../index.html#tools">Herramientas</a></li>
+      <li><a href="../index.html#screenshots">Pantallas</a></li>
+      <li><a href="../index.html#download">Descargar</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0;">
+      <div class="lang-switch">
+        <a href="../../es/tools/molecule-viewer.html" class="active">ES</a>
+        <a href="../../en/tools/molecule-viewer.html">EN</a>
+      </div>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="nav-cta" style="display:inline-flex;align-items:center;gap:.45rem;"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>Descargar gratis</a>
+    </div>
+  </nav>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Inicio</a>
+    <span class="sep">/</span>
+    <a href="../index.html#tools">Herramientas</a>
+    <span class="sep">/</span>
+    <span class="current">Descripción y visor de moléculas</span>
+  </div>
+
+  <section class="tool-hero">
+    <div class="tool-hero-icon"><img src="../../assets/icons/molecule-viewer.png" alt="Icono de Descripción y visor de moléculas" /></div>
+    <p class="eyebrow">HERRAMIENTA</p>
+    <h1 class="display">Descripción y visor de moléculas</h1>
+    <p class="tool-hero-desc">Explora más de 120 moléculas inorgánicas y orgánicas en un visor 3D con zoom y rotación: consulta sus elementos, geometría y enlaces. Cada molécula incluye nombre genérico e IUPAC, fórmula, peso, tipo de geometría, descripción y usos.</p>
+    <div class="tool-hero-actions">
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>
+        <span>Conseguir en Google Play</span>
+      </a>
+      <a href="../index.html#tools" class="btn-secondary">
+        <span>Volver a herramientas</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <div class="tool-content">
+    <div class="content-block">
+      <h2 class="heading">Qué incluye</h2>
+      <p>El visor molecular combina un modelo 3D interactivo — con zoom y rotación para examinar elementos, geometría y enlaces — con una ficha de datos para cada una de las más de 120 moléculas inorgánicas y orgánicas disponibles.</p>
+      <div class="info-grid">
+        <div class="info-item">
+          <h4>Visor 3D con zoom y rotación</h4>
+          <p>Gira y haz zoom en el modelo 3D para examinar cada molécula desde cualquier ángulo.</p>
+        </div>
+        <div class="info-item">
+          <h4>Elementos, geometría y enlaces</h4>
+          <p>El visor muestra los elementos, la geometría molecular y los enlaces de cada compuesto.</p>
+        </div>
+        <div class="info-item">
+          <h4>Más de 120 moléculas</h4>
+          <p>Moléculas inorgánicas y orgánicas.</p>
+        </div>
+        <div class="info-item">
+          <h4>Nombre genérico e IUPAC</h4>
+          <p>Consulta el nombre común y el nombre según la nomenclatura IUPAC de cada molécula.</p>
+        </div>
+        <div class="info-item">
+          <h4>Fórmula y peso</h4>
+          <p>Fórmula química y peso de cada molécula.</p>
+        </div>
+        <div class="info-item">
+          <h4>Tipo de geometría</h4>
+          <p>Geometría molecular de cada compuesto.</p>
+        </div>
+        <div class="info-item">
+          <h4>Descripción y usos</h4>
+          <p>Descripción de la molécula y sus usos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <h2 class="heading">Cómo se usa en la app</h2>
+      <ul class="steps">
+        <li><span>Abre el <b>visor molecular</b> desde el menú principal.</span></li>
+        <li><span>Selecciona la molécula que quieras consultar entre las más de 120 disponibles.</span></li>
+        <li><span>Gira y haz zoom sobre el modelo 3D para examinar sus elementos, geometría y enlaces.</span></li>
+        <li><span>Consulta la ficha de datos: nombre genérico e IUPAC, fórmula, peso, tipo de geometría, descripción y usos.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-inner">
+      <p class="eyebrow">HERRAMIENTAS</p>
+      <h2 class="heading">Herramientas relacionadas</h2>
+      <div class="related-grid">
+        <a class="related-card" href="periodic-table.html">
+          <div class="related-icon">⚛️</div>
+          <h4>Tabla Periódica y datos de los elementos</h4>
+          <p>Consulta la tabla periódica con distintas opciones de visualización y accede a más de 40 propiedades de cada…</p>
+        </a>
+        <a class="related-card" href="ionic-character.html">
+          <div class="related-icon">🔗</div>
+          <h4>Cálculo del carácter iónico de un enlace</h4>
+          <p>Introduce dos elementos y obtén la diferencia de electronegatividad entre ambos, el porcentaje estimado de…</p>
+        </a>
+        <a class="related-card" href="molar-mass-calculator.html">
+          <div class="related-icon">🔬</div>
+          <h4>Calculadora de pesos atómicos y moleculares</h4>
+          <p>Introduce cualquier fórmula química — desde un elemento suelto hasta un compuesto orgánico complejo — y obtén al…</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-banner">
+    <div class="cta-banner-box">
+      <h2 class="heading">Visualiza la química en 3D</h2>
+      <p>Descarga Suite Química gratis y explora más de 120 moléculas sin conexión.</p>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>
+        <span>Conseguir en Google Play</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="../img/logo.webp" alt="logo" />
+        <span>Suite<span class="suite">Química</span></span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="../index.html#about">Descripción</a></li>
+        <li><a href="../index.html#features">Funciones</a></li>
+        <li><a href="../index.html#tools">Herramientas</a></li>
+        <li><a href="../index.html#download">Descargar</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank">Google Play</a></li>
+        <li><a href="mailto:miguelfn@gmail.com">Contacto</a></li>
+      </ul>
+      <p class="footer-copy">
+        2026 Suite Química.
+        <span>Desarrollada con ♥ para la comunidad química.</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

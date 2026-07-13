@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Estimate bond polarity and the percentage of ionic character from electronegativity differences with Chemical Suite for Android.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://miguelfn.github.io/en/tools/ionic-character.html">
+  <link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/ionic-character.html">
+  <link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/ionic-character.html">
+
+  <meta property="og:title" content="Ionic character of a bond calculator — Chemical Suite">
+  <meta property="og:description" content="Estimate bond polarity and the percentage of ionic character from electronegativity differences with Chemical Suite for Android.">
+  <meta property="og:url" content="https://miguelfn.github.io/en/tools/ionic-character.html">
+  <meta property="og:type" content="website">
+
+  <title>Ionic character of a bond calculator — Chemical Suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/tools.css" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PEQ44QZ63H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PEQ44QZ63H');
+</script>
+<body>
+  <nav>
+    <a class="nav-logo" href="../index.html">
+      <img src="../img/logo.webp" alt="Chemical Suite logo" />
+      <span class="name">Chemical</span><span class="suite">Suite</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#features">Features</a></li>
+      <li><a href="../index.html#tools">Tools</a></li>
+      <li><a href="../index.html#screenshots">Screenshots</a></li>
+      <li><a href="../index.html#download">Download</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0;">
+      <div class="lang-switch">
+        <a href="../../es/tools/ionic-character.html">ES</a>
+        <a href="../../en/tools/ionic-character.html" class="active">EN</a>
+      </div>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="nav-cta" style="display:inline-flex;align-items:center;gap:.45rem;"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>Download free</a>
+    </div>
+  </nav>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a>
+    <span class="sep">/</span>
+    <a href="../index.html#tools">Tools</a>
+    <span class="sep">/</span>
+    <span class="current">Ionic character of a bond calculator</span>
+  </div>
+
+  <section class="tool-hero">
+    <div class="tool-hero-icon"><img src="../../assets/icons/ionic-character.png" alt="Ionic Character icon" /></div>
+    <p class="eyebrow">TOOL</p>
+    <h1 class="display">Ionic character of a bond calculator</h1>
+    <p class="tool-hero-desc">Pick two elements and get the electronegativity difference between them, the estimated percentage of ionic character of the bond, and whether it is predominantly covalent, polar covalent, or ionic.</p>
+    <div class="tool-hero-actions">
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>
+        <span>Get it on Google Play</span>
+      </a>
+      <a href="../index.html#tools" class="btn-secondary">
+        <span>Back to tools</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <div class="tool-content">
+    <div class="content-block">
+      <h2 class="heading">What it calculates</h2>
+      <p>No bond is 100% ionic or 100% covalent: its real character depends on the electronegativity difference between the atoms involved. This tool takes the electronegativity values from the built-in periodic table and estimates that percentage automatically.</p>
+      <div class="info-grid">
+        <div class="info-item">
+          <h4>Electronegativity difference (Δχ)</h4>
+          <p>Automatically calculated from the Pauling electronegativity values of both elements.</p>
+        </div>
+        <div class="info-item">
+          <h4>Percentage of ionic character</h4>
+          <p>Estimates the ionic character of the bond based on Δχ, useful for predicting the type of solid formed.</p>
+        </div>
+        <div class="info-item">
+          <h4>Bond classification</h4>
+          <p>Indicates whether the bond is nonpolar covalent, polar covalent, or ionic based on standard Δχ ranges.</p>
+        </div>
+        <div class="info-item">
+          <h4>Built-in electronegativity data</h4>
+          <p>No need to look up values separately — they come directly from the app's periodic table.</p>
+        </div>
+      </div>
+      <div class="formula-box">Δχ = |χA − χB|  →  the larger Δχ, the greater the ionic character of the bond</div>
+    </div>
+
+    <div class="content-block">
+      <h2 class="heading">How it works in the app</h2>
+      <ul class="steps">
+        <li><span>Open the <b>ionic character calculator</b> from the tools menu.</span></li>
+        <li><span>Select the two elements forming the bond.</span></li>
+        <li><span>The app automatically calculates Δχ and the percentage of ionic character.</span></li>
+        <li><span>Check the resulting bond classification (covalent, polar, or ionic).</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-inner">
+      <p class="eyebrow">TOOLS</p>
+      <h2 class="heading">Related tools</h2>
+      <div class="related-grid">
+        <a class="related-card" href="periodic-table.html">
+          <div class="related-icon">⚛️</div>
+          <h4>Periodic Table and element data</h4>
+          <p>Browse the periodic table with different display options and access 40+ properties for each element:…</p>
+        </a>
+        <a class="related-card" href="molecule-viewer.html">
+          <div class="related-icon">⬡</div>
+          <h4>Molecule description and viewer</h4>
+          <p>Explore 120+ inorganic and organic molecules in a 3D viewer with zoom and rotation: see their elements,…</p>
+        </a>
+        <a class="related-card" href="ph-calculator.html">
+          <div class="related-icon">🧪</div>
+          <h4>pH calculator and acid dissociation constants</h4>
+          <p>Chemical Suite includes three utilities related to pH and acid-base equilibrium: an acid dissociation…</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-banner">
+    <div class="cta-banner-box">
+      <h2 class="heading">Analyze any bond in seconds</h2>
+      <p>Download Chemical Suite for free and calculate the ionic character of any bond offline.</p>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>
+        <span>Get it on Google Play</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="../img/logo.webp" alt="logo" />
+        <span>Chemical<span class="suite">Suite</span></span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#features">Features</a></li>
+        <li><a href="../index.html#tools">Tools</a></li>
+        <li><a href="../index.html#download">Download</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank">Google Play</a></li>
+        <li><a href="mailto:miguelfn@gmail.com">Contact</a></li>
+      </ul>
+      <p class="footer-copy">
+        2026 Chemical Suite.
+        <span>Made with ♥ for the chemistry community.</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

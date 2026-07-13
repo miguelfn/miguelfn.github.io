@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Constantes de disociación ácida (Ka, Kb, pKa, pKb), calculadora de pH y pOH, y solución tampón (Henderson-Hasselbalch) en Suite Química para Android.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://miguelfn.github.io/es/tools/ph-calculator.html">
+  <link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/ph-calculator.html">
+  <link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/ph-calculator.html">
+
+  <meta property="og:title" content="Calculadora de pH y constantes de disociación ácida — Suite Química">
+  <meta property="og:description" content="Constantes de disociación ácida (Ka, Kb, pKa, pKb), calculadora de pH y pOH, y solución tampón (Henderson-Hasselbalch) en Suite Química para Android.">
+  <meta property="og:url" content="https://miguelfn.github.io/es/tools/ph-calculator.html">
+  <meta property="og:type" content="website">
+
+  <title>Calculadora de pH y constantes de disociación ácida — Suite Química</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/tools.css" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PEQ44QZ63H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PEQ44QZ63H');
+</script>
+<body>
+  <nav>
+    <a class="nav-logo" href="../index.html">
+      <img src="../img/logo.webp" alt="Chemical Suite logo" />
+      <span class="name">Suite</span><span class="suite">Química</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">Descripción</a></li>
+      <li><a href="../index.html#features">Funciones</a></li>
+      <li><a href="../index.html#tools">Herramientas</a></li>
+      <li><a href="../index.html#screenshots">Pantallas</a></li>
+      <li><a href="../index.html#download">Descargar</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0;">
+      <div class="lang-switch">
+        <a href="../../es/tools/ph-calculator.html" class="active">ES</a>
+        <a href="../../en/tools/ph-calculator.html">EN</a>
+      </div>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="nav-cta" style="display:inline-flex;align-items:center;gap:.45rem;"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>Descargar gratis</a>
+    </div>
+  </nav>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Inicio</a>
+    <span class="sep">/</span>
+    <a href="../index.html#tools">Herramientas</a>
+    <span class="sep">/</span>
+    <span class="current">Calculadora de pH y constantes de disociación ácida</span>
+  </div>
+
+  <section class="tool-hero">
+    <div class="tool-hero-icons">
+      <div class="tool-hero-icon"><img src="../../assets/icons/acid-dissociation.png" alt="Icono de Constante de disociación ácida" /></div>
+      <div class="tool-hero-icon"><img src="../../assets/icons/ph-calculator.png" alt="Icono de Calculadora de pH" /></div>
+    </div>
+    <p class="eyebrow">HERRAMIENTA</p>
+    <h1 class="display">Calculadora de pH y constantes de disociación ácida</h1>
+    <p class="tool-hero-desc">Suite Química incluye tres utilidades relacionadas con el pH y el equilibrio ácido-base: una base de datos de constantes de disociación ácida (Ka, Kb, pKa, pKb), una calculadora de pH y una calculadora de disolución tampón (Henderson-Hasselbalch).</p>
+    <div class="tool-hero-actions">
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>
+        <span>Conseguir en Google Play</span>
+      </a>
+      <a href="../index.html#tools" class="btn-secondary">
+        <span>Volver a herramientas</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <div class="tool-content">
+    <div class="content-block">
+      <h2 class="heading"><img src="../../assets/icons/acid-dissociation.png" alt="" />Constantes de disociación ácida</h2>
+      <p>Consulta Ka, Kb, pKa y pKb de un listado de numerosos compuestos, o convierte cualquiera de estos cuatro valores a los otros tres.</p>
+      <div class="info-grid">
+        <div class="info-item">
+          <h4>Listado de compuestos</h4>
+          <p>Consulta Ka, Kb, pKa y pKb de un listado de numerosos compuestos.</p>
+        </div>
+        <div class="info-item">
+          <h4>Conversión entre valores</h4>
+          <p>Introduce un valor — Ka, Kb, pKa o pKb — y calcula los otros tres.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <h2 class="heading"><img src="../../assets/icons/ph-calculator.png" alt="" />Calculadora de pH</h2>
+      <p>Calcula pH, pOH, [H⁺] y [OH⁻] a partir de cualquiera de estos cuatro valores, o a partir del tipo de ácido o base y su concentración.</p>
+      <div class="info-grid">
+        <div class="info-item">
+          <h4>A partir de H⁺, pH, pOH u OH⁻</h4>
+          <p>Introduce la concentración de H⁺, el pH, el pOH o la concentración de OH⁻ y obtén los otros tres valores.</p>
+        </div>
+        <div class="info-item">
+          <h4>A partir del tipo de ácido/base y concentración</h4>
+          <p>Selecciona el tipo de ácido o base e introduce su concentración (mol/L) para calcular pH, pOH, [H⁺] y [OH⁻].</p>
+        </div>
+      </div>
+      <div class="formula-box">pH = −log[H⁺]     pOH = −log[OH⁻]     pH + pOH = 14 (a 25 °C)</div>
+    </div>
+
+    <div class="content-block">
+      <h2 class="heading">Solución tampón (Henderson-Hasselbalch)</h2>
+      <p>Calcula el pH de una disolución tampón aplicando la ecuación de Henderson-Hasselbalch.</p>
+      <div class="formula-box">pH = pKa + log([A⁻] / [HA])</div>
+    </div>
+
+    <div class="content-block">
+      <h2 class="heading">Cómo se usa en la app</h2>
+      <ul class="steps">
+        <li><span>Abre la <b>calculadora de pH y ácido-base</b> desde el menú de herramientas.</span></li>
+        <li><span>Consulta Ka, Kb, pKa y pKb de un compuesto, o convierte entre estos cuatro valores.</span></li>
+        <li><span>En la calculadora de pH, introduce H⁺, pH, pOH u OH⁻ — o el tipo de ácido/base y su concentración — para obtener el resto.</span></li>
+        <li><span>Usa la utilidad de solución tampón para calcular el pH mediante la ecuación de Henderson-Hasselbalch.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="related-section">
+    <div class="related-inner">
+      <p class="eyebrow">HERRAMIENTAS</p>
+      <h2 class="heading">Herramientas relacionadas</h2>
+      <div class="related-grid">
+        <a class="related-card" href="concentration-dilution.html">
+          <div class="related-icon">⚗️</div>
+          <h4>Calculadora de concentración y dilución de soluciones</h4>
+          <p>Calcula molaridad, normalidad, moles, volumen o masa de soluto a partir de cualquier combinación de valores…</p>
+        </a>
+        <a class="related-card" href="ionic-character.html">
+          <div class="related-icon">🔗</div>
+          <h4>Cálculo del carácter iónico de un enlace</h4>
+          <p>Introduce dos elementos y obtén la diferencia de electronegatividad entre ambos, el porcentaje estimado de…</p>
+        </a>
+        <a class="related-card" href="constants-table.html">
+          <div class="related-icon">📡</div>
+          <h4>Tabla de constantes científicas</h4>
+          <p>Consulta más de 300 constantes científicas. De cada una puedes ver su símbolo, nombre, valor, unidades,…</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-banner">
+    <div class="cta-banner-box">
+      <h2 class="heading">Resuelve cualquier problema de pH en segundos</h2>
+      <p>Descarga Suite Química gratis y calcula pH, pOH, pKa y pKb sin conexión.</p>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>
+        <span>Conseguir en Google Play</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="../img/logo.webp" alt="logo" />
+        <span>Suite<span class="suite">Química</span></span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="../index.html#about">Descripción</a></li>
+        <li><a href="../index.html#features">Funciones</a></li>
+        <li><a href="../index.html#tools">Herramientas</a></li>
+        <li><a href="../index.html#download">Descargar</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank">Google Play</a></li>
+        <li><a href="mailto:miguelfn@gmail.com">Contacto</a></li>
+      </ul>
+      <p class="footer-copy">
+        2026 Suite Química.
+        <span>Desarrollada con ♥ para la comunidad química.</span>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

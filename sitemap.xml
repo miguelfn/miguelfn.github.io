@@ -15,4 +15,125 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/"/>
   </url>
 
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/periodic-table.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/periodic-table.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/periodic-table.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/periodic-table.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/periodic-table.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/periodic-table.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/molar-mass-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/molar-mass-calculator.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/molar-mass-calculator.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/molar-mass-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/molar-mass-calculator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/molar-mass-calculator.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/molecule-viewer.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/molecule-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/molecule-viewer.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/molecule-viewer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/molecule-viewer.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/molecule-viewer.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/equation-balancing-stoichiometry.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/equation-balancing-stoichiometry.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/equation-balancing-stoichiometry.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/equation-balancing-stoichiometry.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/equation-balancing-stoichiometry.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/equation-balancing-stoichiometry.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/ph-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/ph-calculator.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/ph-calculator.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/ph-calculator.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/ph-calculator.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/ph-calculator.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/ionic-character.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/ionic-character.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/ionic-character.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/ionic-character.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/ionic-character.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/ionic-character.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/concentration-dilution.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/concentration-dilution.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/concentration-dilution.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/concentration-dilution.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/concentration-dilution.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/concentration-dilution.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/gas-laws.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/gas-laws.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/gas-laws.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/gas-laws.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/gas-laws.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/gas-laws.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/unit-converter.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/unit-converter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/unit-converter.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/unit-converter.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/unit-converter.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/unit-converter.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/constants-table.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/constants-table.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/constants-table.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/constants-table.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/constants-table.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/constants-table.html"/>
+  </url>
+
+  <url>
+    <loc>https://miguelfn.github.io/es/tools/nomenclature-tutorials-tests.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/nomenclature-tutorials-tests.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/nomenclature-tutorials-tests.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/nomenclature-tutorials-tests.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/nomenclature-tutorials-tests.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/nomenclature-tutorials-tests.html"/>
+  </url>
+
 </urlset>
