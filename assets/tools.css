@@ -158,6 +158,20 @@ nav {
 }
 .formula-box small { display: block; font-family: 'Inter', sans-serif; font-size: .78rem; color: var(--muted); margin-top: .4rem; font-weight: 400; }
 
+.tool-video { display: flex; justify-content: center; margin-top: 1.4rem; }
+.tool-video video {
+  width: 100%; max-width: 320px; border-radius: var(--r);
+  border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,.4);
+}
+
+.steps-with-media { display: flex; gap: 2rem; align-items: flex-start; margin-top: 1.4rem; }
+.steps-with-media .steps { flex: 1; margin-top: 0; }
+.steps-with-media .tool-video { flex: none; margin-top: 0; }
+@media (max-width: 760px) {
+  .steps-with-media { flex-direction: column; }
+  .steps-with-media .tool-video { align-self: center; }
+}
+
 .tag-list { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }
 .tag-pill {
   padding: .4rem .9rem; background: var(--blue-dim); border: 1px solid rgba(59,158,255,.22);
