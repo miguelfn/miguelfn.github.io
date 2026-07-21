@@ -547,8 +547,21 @@
       .offline-inner { flex-direction: column; text-align: center; }
     }
     @media (max-width: 600px) {
-      nav { padding: .75rem 1rem; gap: .5rem; }
-      .nav-links { display: none; }
+      nav { padding: .65rem .9rem; gap: .5rem; flex-wrap: wrap; }
+      .nav-logo { font-size: .95rem; gap: .5rem; }
+      .nav-logo img { width: 26px; height: 26px; }
+      .nav-toggle { display: flex; }
+      .nav-links {
+        display: none; order: 3; flex-basis: 100%;
+        flex-direction: column; gap: 0; margin-top: .8rem; padding-top: .7rem;
+        border-top: 1px solid var(--border);
+      }
+      .nav-open .nav-links { display: flex; }
+      .nav-links li { border-bottom: 1px solid var(--border); }
+      .nav-links li:last-child { border-bottom: none; }
+      .nav-links a { display: block; padding: .7rem .1rem; }
+      .nav-cta { padding: .5rem .65rem; }
+      .nav-cta .cta-text { display: none; }
       .features-grid { grid-template-columns: 1fr; }
       .screens-grid { grid-template-columns: 1fr 1fr; }
       .download-box { padding: 2.5rem 1.4rem; }
@@ -749,6 +762,15 @@
     .lang-switch a:not(.active):hover {
       color: var(--text);
     }
+
+    .nav-toggle {
+      display: none; flex-direction: column; justify-content: center; gap: 5px;
+      width: 34px; height: 34px; padding: 0; border: none; background: transparent; cursor: pointer;
+    }
+    .nav-toggle span { display: block; width: 100%; height: 2px; background: var(--text); border-radius: 2px; transition: transform .2s, opacity .2s; }
+    .nav-open .nav-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-open .nav-toggle span:nth-child(2) { opacity: 0; }
+    .nav-open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
   </style>
   <script type="application/ld+json">
   {
@@ -801,6 +823,7 @@
       <li><a href="#features">Features</a></li>
       <li><a href="#tools">Tools</a></li>
       <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="faq.html">FAQ</a></li>
       <li><a href="#download">Download</a></li>
     </ul>
     <div style="display:flex;align-items:center;gap:.75rem;flex-shrink:0;">
@@ -808,8 +831,9 @@
         <a href="../es/index.html">ES</a>
         <a href="../en/index.html" class="active">EN</a>
       </div>
-      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="nav-cta" style="display:inline-flex;align-items:center;gap:.45rem;"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg>Download free</a>
+      <a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank" rel="noopener" class="nav-cta" style="display:inline-flex;align-items:center;gap:.45rem;"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0"><path d="M3.18 23.76c.37.2.8.22 1.2.05l12.55-7.25-2.88-2.88-10.87 10.08zM20.7 9.55l-2.6-1.5-3.27 3.27 3.27 3.27 2.62-1.52c.75-.44.75-1.59-.02-2.02zM1.46.32C1.17.64 1 1.14 1 1.82v20.36c0 .68.17 1.18.47 1.5l.08.08 11.4-11.4v-.27L1.54.24l-.08.08zM16.73 5.69L4.18 1.24c-.4-.17-.83-.15-1.2.05l-.08.08 10.87 10.08 2.96-2.76z"/></svg><span class="cta-text">Download free</span></a>
     </div>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </nav>
 
   <!-- HERO -->
@@ -1285,6 +1309,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#tools">Tools</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="#download">Download</a></li>
         <li><a href="https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp" target="_blank">Google Play</a></li>
         <li><a href="mailto:miguelfn@gmail.com">Contact</a></li>
@@ -1295,5 +1320,6 @@
       </p>
     </div>
   </footer>
+  <script defer src="../assets/nav.js"></script>
 </body>
 </html>
