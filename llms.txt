@@ -1,0 +1,52 @@
+# Chemical Suite (Suite Química)
+
+> Chemical Suite (Suite Química in Spanish) is a free, 100% offline Android
+> chemistry app for students, teachers, researchers and chemistry
+> professionals. It bundles an interactive periodic table, a molecule
+> viewer, an equation balancer, and calculators for stoichiometry, pH/acid-base
+> chemistry, molar mass, solution concentration/dilution, ionic character, gas
+> laws and unit conversion, plus a scientific constants table and
+> nomenclature tutorials with self-test questions. This site
+> (miguelfn.github.io) is its static marketing/landing-page site, available in
+> Spanish and English, hosted on GitHub Pages.
+
+## App
+
+- Google Play listing: https://play.google.com/store/apps/details?id=es.mafn.chemdroidcp
+- Android package id: es.mafn.chemdroidcp
+- Platform: Android. Works fully offline, no account required.
+
+## Spanish (es) — Suite Química
+
+- Home: https://miguelfn.github.io/es/ — Suite Química: tabla periódica interactiva, calculadora de estequiometría, calculadora de pH, herramientas ácido-base, ajustador de ecuaciones, visor molecular y más. Gratis y 100% sin conexión.
+- Tabla Periódica: https://miguelfn.github.io/es/tools/periodic-table.html — Tabla periódica con opciones de visualización, más de 40 propiedades por elemento, buscador por rango de valores, isótopos y gráficas de tendencias.
+- Calculadora de pesos atómicos y moleculares: https://miguelfn.github.io/es/tools/molar-mass-calculator.html — Calcula la masa atómica y molecular de cualquier fórmula química al instante.
+- Descripción y visor de moléculas: https://miguelfn.github.io/es/tools/molecule-viewer.html — Visor molecular con zoom y rotación: elementos, geometría y enlaces de más de 120 moléculas inorgánicas y orgánicas.
+- Balanceo de ecuaciones y estequiometría: https://miguelfn.github.io/es/tools/equation-balancing-stoichiometry.html — Ajusta ecuaciones químicas automáticamente y resuelve problemas de estequiometría con reactivo limitante.
+- Calculadora de pH: https://miguelfn.github.io/es/tools/ph-calculator.html — Constantes de disociación ácida (Ka, Kb, pKa, pKb), calculadora de pH y pOH, y solución tampón (Henderson-Hasselbalch).
+- Carácter iónico de un enlace: https://miguelfn.github.io/es/tools/ionic-character.html — Estima la polaridad del enlace y el porcentaje de carácter iónico a partir de la diferencia de electronegatividad.
+- Concentración y dilución de soluciones: https://miguelfn.github.io/es/tools/concentration-dilution.html — Calcula molaridad, normalidad y dilución.
+- Cálculos de gases: https://miguelfn.github.io/es/tools/gas-laws.html — Ley de los gases ideales, Boyle, Charles y ley combinada.
+- Conversor de unidades: https://miguelfn.github.io/es/tools/unit-converter.html — Convierte más de 30 magnitudes científicas (presión, energía, masa, volumen y más).
+- Tabla de constantes científicas: https://miguelfn.github.io/es/tools/constants-table.html — Más de 300 constantes científicas: símbolo, nombre, valor, unidades, incertidumbre y estándar.
+- Tutoriales y test de formulación: https://miguelfn.github.io/es/tools/nomenclature-tutorials-tests.html — Formulación química inorgánica y orgánica con tutoriales paso a paso y más de 500 preguntas de test.
+
+## English (en) — Chemical Suite
+
+- Home: https://miguelfn.github.io/en/ — Chemical Suite: interactive periodic table, stoichiometry calculator, pH calculator, acid-base tools, equation balancer, molecular viewer, and more. Free and 100% offline.
+- Periodic Table: https://miguelfn.github.io/en/tools/periodic-table.html — Display options, 40+ properties per element, search by value range, isotopes and trend charts. Fully offline.
+- Atomic and molecular weight calculator: https://miguelfn.github.io/en/tools/molar-mass-calculator.html — Calculate the atomic and molecular mass of any chemical formula instantly.
+- Molecule description and viewer: https://miguelfn.github.io/en/tools/molecule-viewer.html — Viewer with zoom and rotation: elements, geometry and bonds of 120+ inorganic and organic molecules.
+- Equation balancing and stoichiometry: https://miguelfn.github.io/en/tools/equation-balancing-stoichiometry.html — Automatically balance chemical equations and solve stoichiometry problems with limiting reagent support.
+- pH calculator: https://miguelfn.github.io/en/tools/ph-calculator.html — Acid dissociation constants (Ka, Kb, pKa, pKb), pH and pOH calculator, and buffer solution (Henderson-Hasselbalch).
+- Ionic character of a bond: https://miguelfn.github.io/en/tools/ionic-character.html — Estimate bond polarity and the percentage of ionic character from electronegativity differences.
+- Solution concentration and dilution: https://miguelfn.github.io/en/tools/concentration-dilution.html — Calculate molarity, normality, and dilution.
+- Gas law calculations: https://miguelfn.github.io/en/tools/gas-laws.html — Ideal gas law, Boyle's, Charles's, and combined gas law problems.
+- Unit converter: https://miguelfn.github.io/en/tools/unit-converter.html — Convert 30+ scientific quantities (pressure, energy, mass, volume, and more).
+- Scientific constants table: https://miguelfn.github.io/en/tools/constants-table.html — 300+ scientific constants: symbol, name, value, units, uncertainty, and standard.
+- Nomenclature tutorials and tests: https://miguelfn.github.io/en/tools/nomenclature-tutorials-tests.html — Inorganic and organic chemical nomenclature with step-by-step tutorials and 500+ test questions.
+
+## Optional
+
+- Sitemap: https://miguelfn.github.io/sitemap.xml
+- Robots: https://miguelfn.github.io/robots.txt
