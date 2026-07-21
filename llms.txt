@@ -8,7 +8,7 @@
 > laws and unit conversion, plus a scientific constants table and
 > nomenclature tutorials with self-test questions. This site
 > (miguelfn.github.io) is its static marketing/landing-page site, available in
-> Spanish and English
+> Spanish and English, hosted on GitHub Pages.
 
 ## App
 
@@ -19,6 +19,7 @@
 ## Spanish (es) — Suite Química
 
 - Home: https://miguelfn.github.io/es/ — Suite Química: tabla periódica interactiva, calculadora de estequiometría, calculadora de pH, herramientas ácido-base, ajustador de ecuaciones, visor molecular y más. Gratis y 100% sin conexión.
+- Preguntas frecuentes: https://miguelfn.github.io/es/faq.html — FAQ sobre precio, funcionamiento offline, herramientas incluidas, dispositivos compatibles y soporte.
 - Tabla Periódica: https://miguelfn.github.io/es/tools/periodic-table.html — Tabla periódica con opciones de visualización, más de 40 propiedades por elemento, buscador por rango de valores, isótopos y gráficas de tendencias.
 - Calculadora de pesos atómicos y moleculares: https://miguelfn.github.io/es/tools/molar-mass-calculator.html — Calcula la masa atómica y molecular de cualquier fórmula química al instante.
 - Descripción y visor de moléculas: https://miguelfn.github.io/es/tools/molecule-viewer.html — Visor molecular con zoom y rotación: elementos, geometría y enlaces de más de 120 moléculas inorgánicas y orgánicas.
@@ -34,6 +35,7 @@
 ## English (en) — Chemical Suite
 
 - Home: https://miguelfn.github.io/en/ — Chemical Suite: interactive periodic table, stoichiometry calculator, pH calculator, acid-base tools, equation balancer, molecular viewer, and more. Free and 100% offline.
+- FAQ: https://miguelfn.github.io/en/faq.html — Frequently asked questions about pricing, offline support, included tools, supported devices, and help.
 - Periodic Table: https://miguelfn.github.io/en/tools/periodic-table.html — Display options, 40+ properties per element, search by value range, isotopes and trend charts. Fully offline.
 - Atomic and molecular weight calculator: https://miguelfn.github.io/en/tools/molar-mass-calculator.html — Calculate the atomic and molecular mass of any chemical formula instantly.
 - Molecule description and viewer: https://miguelfn.github.io/en/tools/molecule-viewer.html — Viewer with zoom and rotation: elements, geometry and bonds of 120+ inorganic and organic molecules.
