@@ -8,7 +8,7 @@
 > laws and unit conversion, plus a scientific constants table and
 > nomenclature tutorials with self-test questions. This site
 > (miguelfn.github.io) is its static marketing/landing-page site, available in
-> Spanish and English, hosted on GitHub Pages.
+> Spanish and English
 
 ## App
 
