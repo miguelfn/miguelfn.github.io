@@ -16,6 +16,17 @@
   </url>
 
   <url>
+    <loc>https://miguelfn.github.io/es/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/faq.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/faq.html"/>
+  </url>
+
+  <url>
     <loc>https://miguelfn.github.io/es/tools/periodic-table.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/periodic-table.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/periodic-table.html"/>
