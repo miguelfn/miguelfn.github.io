@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Celia &amp; Eduardo — Tarjeta de felicitación</title>
+</head>
+<body>
+<style>
+  :root{
+    --bg:#F5EFE4;
+    --card:#FFFDF8;
+    --ink:#2B2320;
+    --ink-soft:#5B4F45;
+    --green:#3E5641;
+    --green-soft:#6B8F73;
+    --blush:#C98A78;
+    --gold:#A8823D;
+    --rust:#8C4A3A;
+    --ring:rgba(43,35,32,0.12);
+    --shadow:rgba(43,35,32,0.16);
+    --mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#1B2019;
+      --card:#232922;
+      --ink:#EFEAE0;
+      --ink-soft:#C9C0B2;
+      --green:#8AB393;
+      --green-soft:#6B8F73;
+      --blush:#E3B5AA;
+      --gold:#D3AE68;
+      --rust:#C97A63;
+      --ring:rgba(239,234,224,0.14);
+      --shadow:rgba(0,0,0,0.45);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#1B2019;
+    --card:#232922;
+    --ink:#EFEAE0;
+    --ink-soft:#C9C0B2;
+    --green:#8AB393;
+    --green-soft:#6B8F73;
+    --blush:#E3B5AA;
+    --gold:#D3AE68;
+    --rust:#C97A63;
+    --ring:rgba(239,234,224,0.14);
+    --shadow:rgba(0,0,0,0.45);
+  }
+  :root[data-theme="light"]{
+    --bg:#F5EFE4;
+    --card:#FFFDF8;
+    --ink:#2B2320;
+    --ink-soft:#5B4F45;
+    --green:#3E5641;
+    --green-soft:#6B8F73;
+    --blush:#C98A78;
+    --gold:#A8823D;
+    --rust:#8C4A3A;
+    --ring:rgba(43,35,32,0.12);
+    --shadow:rgba(43,35,32,0.16);
+  }
+
+  *{ box-sizing:border-box; }
+
+  body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    padding:56px 20px;
+    background:
+      radial-gradient(circle at 18% 12%, color-mix(in srgb, var(--green) 7%, transparent), transparent 42%),
+      radial-gradient(circle at 84% 88%, color-mix(in srgb, var(--blush) 10%, transparent), transparent 45%),
+      var(--bg);
+    color:var(--ink);
+    font-family: Optima, Candara, "Segoe UI", "Noto Sans", sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .card{
+    width:100%;
+    max-width:840px;
+    background:var(--card);
+    border:1px solid var(--ring);
+    border-radius:6px;
+    box-shadow:0 30px 70px -30px var(--shadow);
+    padding:clamp(32px, 6vw, 72px) clamp(20px, 6vw, 72px) 56px;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .card::before{
+    content:"";
+    position:absolute;
+    inset:14px;
+    border:1px solid color-mix(in srgb, var(--gold) 55%, transparent);
+    border-radius:2px;
+    pointer-events:none;
+  }
+
+  /* ---------- header ---------- */
+
+  .rule{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    justify-content:center;
+    margin-bottom:26px;
+  }
+  .rule span{
+    height:1px;
+    width:64px;
+    background:color-mix(in srgb, var(--gold) 70%, transparent);
+  }
+  .rule i{
+    width:6px; height:6px;
+    background:var(--gold);
+    transform:rotate(45deg);
+    display:inline-block;
+  }
+
+  h1.names{
+    text-align:center;
+    margin:0;
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    font-size:clamp(34px, 6.4vw, 54px);
+    line-height:1.08;
+    letter-spacing:.01em;
+    text-wrap:balance;
+  }
+  h1.names em{
+    font-style:normal;
+    color:var(--rust);
+    padding:0 .12em;
+  }
+  h1.names .md-hash{
+    font-family:var(--mono);
+    font-style:normal;
+    font-weight:400;
+    font-size:.52em;
+    color:var(--ink-soft);
+    opacity:.45;
+    margin-right:.24em;
+    vertical-align:.05em;
+  }
+
+  .badge-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin:20px 0 6px;
+  }
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    font-family:var(--mono);
+    font-size:11.5px;
+    padding:5px 13px;
+    border-radius:999px;
+    border:1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+    background:color-mix(in srgb, var(--accent) 11%, transparent);
+    color:var(--ink);
+    white-space:nowrap;
+  }
+  .badge .dot{
+    width:7px; height:7px;
+    border-radius:50%;
+    background:var(--accent);
+    display:inline-block;
+    flex:none;
+  }
+
+  .subtitle{
+    text-align:center;
+    margin:22px auto 0;
+    max-width:48ch;
+    color:var(--ink-soft);
+    font-size:15.5px;
+    line-height:1.65;
+  }
+
+  /* ---------- changelog terminal ---------- */
+
+  .terminal{
+    margin:38px 0 0;
+    background:#1C211B;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 20px 44px -22px var(--shadow);
+    opacity:0;
+    transform:translateY(10px);
+    animation:rise .6s ease forwards;
+    animation-delay:.5s;
+  }
+  .terminal-bar{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    padding:10px 14px;
+    background:#242B21;
+  }
+  .terminal-bar .dot{ width:10px; height:10px; border-radius:50%; }
+  .dot-r{ background:#FF5F56; }
+  .dot-y{ background:#FFBD2E; }
+  .dot-g{ background:#27C93F; }
+  .terminal-title{
+    margin-left:8px;
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:#9BA79A;
+    letter-spacing:.02em;
+  }
+  .terminal-body{
+    margin:0;
+    padding:18px 20px 22px;
+    font-family:var(--mono);
+    font-size:12.5px;
+    line-height:1.95;
+    color:#D8D3C4;
+    overflow-x:auto;
+    white-space:pre;
+  }
+  .terminal-body .ln{ display:block; }
+  .ln.add{ color:#8FBF9A; }
+  .ln.del{ color:#E39387; }
+  .ln.warn{ color:#E3C173; }
+
+  /* ---------- signers ---------- */
+
+  .signers-label{
+    text-align:center;
+    margin:44px 0 26px;
+    font-size:11.5px;
+    letter-spacing:.28em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+
+  .signers{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:38px 22px;
+    justify-items:stretch;
+    padding:0;
+    margin:0 0 8px;
+    list-style:none;
+  }
+  @media (max-width:640px){
+    .signers{ grid-template-columns:repeat(2, 1fr); }
+  }
+  @media (max-width:400px){
+    .signers{ grid-template-columns:1fr; max-width:280px; margin-left:auto; margin-right:auto; }
+  }
+
+  .signer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    text-align:center;
+    opacity:0;
+    transform:translateY(10px);
+    animation:rise .6s ease forwards;
+    animation-delay:calc(var(--i) * 70ms + 650ms);
+  }
+
+  /* square photo frame — this is the space for the dedication PHOTO each person sends
+     (a picture of their handwritten note / their own message), not typed text */
+  .photo-frame{
+    width:100%;
+    aspect-ratio:1 / 1;
+    padding:7px;
+    background:var(--frame);
+    border-radius:5px;
+    box-shadow:0 10px 20px -12px var(--shadow);
+    transition:transform .35s ease, box-shadow .35s ease;
+  }
+  .signer:hover .photo-frame{
+    transform:translateY(-3px) rotate(0deg) scale(1.03);
+    box-shadow:0 16px 26px -12px var(--shadow);
+  }
+
+  .photo-frame img{
+    width:100%;
+    height:100%;
+    border-radius:2px;
+    object-fit:cover;
+    display:block;
+    background:var(--card);
+  }
+
+  /* alternating gentle tilt for a "scattered photos" feel */
+  .signer:nth-child(3n+1) .photo-frame{ transform:rotate(-2deg); }
+  .signer:nth-child(3n+2) .photo-frame{ transform:rotate(1.5deg); }
+  .signer:nth-child(3n)   .photo-frame{ transform:rotate(-1deg); }
+  .signer:hover:nth-child(3n+1) .photo-frame,
+  .signer:hover:nth-child(3n+2) .photo-frame,
+  .signer:hover:nth-child(3n)   .photo-frame{ transform:translateY(-3px) rotate(0deg) scale(1.03); }
+
+  .signer-name{
+    font-size:13.5px;
+    font-weight:600;
+    color:var(--ink);
+    letter-spacing:.01em;
+    margin-top:4px;
+  }
+
+  .signer-role{
+    font-family:var(--mono);
+    font-size:10.5px;
+    color:var(--ink-soft);
+    opacity:.7;
+  }
+
+  .footer-rule{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    justify-content:center;
+    margin-top:46px;
+  }
+  .footer-rule span{
+    height:1px;
+    width:40px;
+    background:color-mix(in srgb, var(--gold) 55%, transparent);
+  }
+  .footer-note{
+    text-align:center;
+    margin:14px 0 0;
+    font-size:14.5px;
+    color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype", Georgia, serif;
+    font-style:italic;
+  }
+  .footer-sla{
+    text-align:center;
+    margin:10px 0 0;
+    font-family:var(--mono);
+    font-size:11px;
+    letter-spacing:.03em;
+    color:var(--ink-soft);
+    opacity:.75;
+  }
+
+  @keyframes rise{
+    to{ opacity:1; transform:translateY(0); }
+  }
+
+  h1.names, .subtitle, .rule, .badge-row{
+    opacity:0;
+    transform:translateY(10px);
+    animation:rise .6s ease forwards;
+  }
+  .rule{ animation-delay:0s; }
+  h1.names{ animation-delay:.1s; }
+  .badge-row{ animation-delay:.22s; }
+  .subtitle{ animation-delay:.32s; }
+
+  @media (prefers-reduced-motion: reduce){
+    .signer, h1.names, .subtitle, .rule, .badge-row, .terminal{
+      animation:none !important;
+      opacity:1 !important;
+      transform:none !important;
+    }
+    .signer:hover .photo-frame{ transform:none; }
+  }
+</style>
+
+<div class="card">
+
+  <div class="rule"><span></span><i></i><span></span></div>
+
+  <h1 class="names"><span class="md-hash">#</span>Celia <em>&amp;</em> Eduardo</h1>
+
+  <div class="badge-row">
+    <span class="badge" style="--accent:var(--green)"><span class="dot"></span>build passing</span>
+    <span class="badge" style="--accent:var(--gold)"><span class="dot"></span>stack: cloudera + cp4d/cognos</span>
+    <span class="badge" style="--accent:var(--rust)"><span class="dot"></span>uptime: &infin; (para toda la vida)</span>
+  </div>
+
+  <p class="subtitle">
+    Arquitectos, cada uno, de media plataforma —Cloudera por un lado, CP4D/Cognos por
+    otro—. Hoy despliegan juntos el proyecto más ambicioso del Espacio de Datos: ellos mismos.
+  </p>
+
+  <div class="terminal">
+    <div class="terminal-bar">
+      <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+      <span class="terminal-title">CHANGELOG_v1.0.0.md</span>
+    </div>
+    <pre class="terminal-body"><code><span class="ln add">+ compañera/o de vida (sin fecha de expiración de la licencia)</span>
+<span class="ln add">+ nueva arquitectura híbrida: dos plataformas, un solo cluster</span>
+<span class="ln del">- soltería (deprecated desde hoy)</span>
+<span class="ln add">+ alta disponibilidad emocional 24/7, cero downtime</span>
+<span class="ln warn">! breaking change: las decisiones ahora se toman en pareja</span>
+<span class="ln add">+ release "Celia &amp; Eduardo" v1.0.0 — desplegado en producción</span>
+<span class="ln del">- rollback: no disponible en esta versión</span></code></pre>
+  </div>
+
+  <p class="signers-label">Reviewers que aprueban este merge, con cariño</p>
+
+  <!--
+    EDITAR AQUÍ, por cada persona:
+    Sustituye el "src" de <img> por la foto de la dedicatoria que te envíe
+    (por ejemplo, la foto de su nota escrita a mano). No hace falta escribir
+    ningún texto: la propia foto ES la dedicatoria.
+    Ahora mismo cada foto es un cuadrado marcador de posición con sus iniciales.
+  -->
+  <ul class="signers">
+    <li class="signer" style="--i:0; --frame:var(--green)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%233E5641'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%23F5EFE4' font-family='Georgia,serif'%3EV%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Virginia (pendiente)">
+      </span>
+      <span class="signer-name">Virginia</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:1; --frame:var(--blush)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%23C98A78'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%232B2320' font-family='Georgia,serif'%3EC%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Carlos (pendiente)">
+      </span>
+      <span class="signer-name">Carlos</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:2; --frame:var(--gold)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%23A8823D'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%23FFFDF8' font-family='Georgia,serif'%3ER%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Roberto (pendiente)">
+      </span>
+      <span class="signer-name">Roberto</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:3; --frame:var(--rust)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%238C4A3A'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%23F5EFE4' font-family='Georgia,serif'%3EM%3C/text%3E%3C/svg%3E" alt="Dedicatoria de María (pendiente)">
+      </span>
+      <span class="signer-name">María</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:4; --frame:var(--green-soft)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%236B8F73'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%23FFFDF8' font-family='Georgia,serif'%3EI%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Iván (pendiente)">
+      </span>
+      <span class="signer-name">Iván</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:5; --frame:var(--green)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%233E5641'/%3E%3Ctext x='100' y='120' font-size='58' text-anchor='middle' fill='%23F5EFE4' font-family='Georgia,serif'%3EMA%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Miguel Ángel (pendiente)">
+      </span>
+      <span class="signer-name">Miguel Ángel</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:6; --frame:var(--blush)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%23C98A78'/%3E%3Ctext x='100' y='120' font-size='58' text-anchor='middle' fill='%232B2320' font-family='Georgia,serif'%3EAV%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Alberto Valle (pendiente)">
+      </span>
+      <span class="signer-name">Alberto Valle</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:7; --frame:var(--gold)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%23A8823D'/%3E%3Ctext x='100' y='120' font-size='58' text-anchor='middle' fill='%23FFFDF8' font-family='Georgia,serif'%3EAV%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Alberto Varela (pendiente)">
+      </span>
+      <span class="signer-name">Alberto Varela</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+    <li class="signer" style="--i:8; --frame:var(--rust)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%238C4A3A'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%23F5EFE4' font-family='Georgia,serif'%3EL%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Luis (pendiente)">
+      </span>
+      <span class="signer-name">Luis</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
+  </ul>
+
+  <div class="footer-rule"><span></span><i style="width:6px;height:6px;background:var(--gold);transform:rotate(45deg);display:inline-block;"></i><span></span></div>
+  <p class="footer-note">Sin downtime. Sin rollback. Solo amor en producción.</p>
+  <p class="footer-sla">SLA: 100% felicidad · sin ventana de mantenimiento</p>
+
+</div>
+
+</body>
+</html>
