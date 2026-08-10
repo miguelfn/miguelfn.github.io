@@ -283,6 +283,7 @@
     border-radius:5px;
     box-shadow:0 10px 20px -12px var(--shadow);
     transition:transform .35s ease, box-shadow .35s ease;
+    cursor:pointer;
   }
   .signer:hover .photo-frame{
     transform:translateY(-3px) rotate(0deg) scale(1.03);
@@ -373,6 +374,67 @@
     }
     .signer:hover .photo-frame{ transform:none; }
   }
+
+  /* ---------- lightbox ---------- */
+
+  .lightbox-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(20,16,12,0.86);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px;
+    z-index:1000;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity .25s ease;
+  }
+  .lightbox-overlay.active{
+    opacity:1;
+    visibility:visible;
+  }
+  .lightbox-box{
+    position:relative;
+    max-width:min(92vw, 620px);
+    max-height:90vh;
+  }
+  .lightbox-box img{
+    display:block;
+    max-width:min(92vw, 620px);
+    max-height:90vh;
+    width:auto;
+    height:auto;
+    border-radius:6px;
+    box-shadow:0 40px 90px -20px rgba(0,0,0,0.6);
+    background:var(--card);
+  }
+  .lightbox-caption{
+    text-align:center;
+    margin-top:14px;
+    font-size:13.5px;
+    color:#F5EFE4;
+    font-family:"Iowan Old Style","Palatino Linotype", Georgia, serif;
+    font-style:italic;
+  }
+  .lightbox-close{
+    position:absolute;
+    top:-16px;
+    right:-16px;
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    border:none;
+    background:var(--gold);
+    color:#2B2320;
+    font-size:18px;
+    line-height:1;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 8px 18px -8px rgba(0,0,0,0.5);
+  }
 </style>
 
 <div class="card">
@@ -453,7 +515,7 @@
     </li>
     <li class="signer" style="--i:5; --frame:var(--green)">
       <span class="photo-frame">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%233E5641'/%3E%3Ctext x='100' y='120' font-size='58' text-anchor='middle' fill='%23F5EFE4' font-family='Georgia,serif'%3EMA%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Miguel Ángel (pendiente)">
+        <img src="dedica/miguel.png" alt="Dedicatoria de Miguel Ángel">
       </span>
       <span class="signer-name">Miguel Ángel</span>
       <span class="signer-role">✓ approved</span>
@@ -479,6 +541,13 @@
       <span class="signer-name">Luis</span>
       <span class="signer-role">✓ approved</span>
     </li>
+    <li class="signer" style="--i:9; --frame:var(--green-soft)">
+      <span class="photo-frame">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Crect width='200' height='200' rx='18' fill='%236B8F73'/%3E%3Ctext x='100' y='124' font-size='68' text-anchor='middle' fill='%23FFFDF8' font-family='Georgia,serif'%3ES%3C/text%3E%3C/svg%3E" alt="Dedicatoria de Sergio (pendiente)">
+      </span>
+      <span class="signer-name">Sergio</span>
+      <span class="signer-role">✓ approved</span>
+    </li>
   </ul>
 
   <div class="footer-rule"><span></span><i style="width:6px;height:6px;background:var(--gold);transform:rotate(45deg);display:inline-block;"></i><span></span></div>
@@ -486,6 +555,51 @@
   <p class="footer-sla">SLA: 100% felicidad · sin ventana de mantenimiento</p>
 
 </div>
+
+<div class="lightbox-overlay" id="lightbox">
+  <div class="lightbox-box">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+<script>
+  (function(){
+    var overlay = document.getElementById('lightbox');
+    var img = document.getElementById('lightboxImg');
+    var caption = document.getElementById('lightboxCaption');
+    var closeBtn = document.getElementById('lightboxClose');
+
+    function openLightbox(src, alt, name){
+      img.src = src;
+      img.alt = alt;
+      caption.textContent = name;
+      overlay.classList.add('active');
+    }
+    function closeLightbox(){
+      overlay.classList.remove('active');
+      img.src = '';
+    }
+
+    document.querySelectorAll('.signer').forEach(function(signer){
+      var photo = signer.querySelector('.photo-frame img');
+      var name = signer.querySelector('.signer-name');
+      if(!photo) return;
+      signer.querySelector('.photo-frame').addEventListener('click', function(){
+        openLightbox(photo.src, photo.alt, name ? name.textContent : '');
+      });
+    });
+
+    closeBtn.addEventListener('click', closeLightbox);
+    overlay.addEventListener('click', function(e){
+      if(e.target === overlay) closeLightbox();
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') closeLightbox();
+    });
+  })();
+</script>
 
 </body>
 </html>
