@@ -352,6 +352,45 @@
     opacity:.75;
   }
 
+  /* ---------- download ---------- */
+
+  .download-row{
+    text-align:center;
+    margin-top:38px;
+  }
+  .download-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+    font-family:var(--mono);
+    font-size:12.5px;
+    letter-spacing:.03em;
+    padding:11px 24px;
+    border-radius:6px;
+    border:1px solid color-mix(in srgb, var(--gold) 60%, transparent);
+    background:color-mix(in srgb, var(--gold) 14%, transparent);
+    color:var(--ink);
+    cursor:pointer;
+    transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+  }
+  .download-btn:hover{
+    background:color-mix(in srgb, var(--gold) 24%, transparent);
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px -12px var(--shadow);
+  }
+  .download-btn:active{ transform:translateY(0); }
+  .download-btn svg{ width:14px; height:14px; flex:none; }
+  .download-hint{
+    margin:10px 0 0;
+    font-size:11px;
+    color:var(--ink-soft);
+    opacity:.7;
+    max-width:36ch;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.5;
+  }
+
   @keyframes rise{
     to{ opacity:1; transform:translateY(0); }
   }
@@ -435,6 +474,38 @@
     justify-content:center;
     box-shadow:0 8px 18px -8px rgba(0,0,0,0.5);
   }
+
+  /* ---------- print / A3 export ---------- */
+
+  @page{
+    size: A3 portrait;
+    margin: 12mm;
+  }
+  @media print{
+    *{
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    body{
+      padding:0;
+      background:#fff;
+      display:block;
+    }
+    .card{
+      max-width:100%;
+      box-shadow:none;
+      border-color:color-mix(in srgb, var(--gold) 55%, transparent);
+    }
+    .no-print, .lightbox-overlay{
+      display:none !important;
+    }
+    .signer, h1.names, .subtitle, .rule, .badge-row, .terminal{
+      animation:none !important;
+      opacity:1 !important;
+      transform:none !important;
+    }
+    .signer:hover .photo-frame{ transform:none; }
+  }
 </style>
 
 <div class="card">
@@ -460,7 +531,7 @@
       <span class="terminal-title">CHANGELOG_v1.0.0.md</span>
     </div>
     <pre class="terminal-body"><code><span class="ln add">+ compañera/o de vida (sin fecha de expiración de la licencia)</span>
-<span class="ln add">+ nueva arquitectura híbrida: dos plataformas, un solo cluster</span>
+<span class="ln add">+ merge de las ramas Celia y Eduardo en main (cero conflictos)</span>
 <span class="ln del">- soltería (deprecated desde hoy)</span>
 <span class="ln add">+ alta disponibilidad emocional 24/7, cero downtime</span>
 <span class="ln warn">! breaking change: las decisiones ahora se toman en pareja</span>
@@ -554,6 +625,14 @@
   <p class="footer-note">Sin downtime. Sin rollback. Solo amor en producción.</p>
   <p class="footer-sla">SLA: 100% felicidad · sin ventana de mantenimiento</p>
 
+  <div class="download-row no-print">
+    <button type="button" id="downloadBtn" class="download-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13"/><path d="m7 11 5 5 5-5"/><path d="M5 21h14"/></svg>
+      Descargar HTML autocontenido
+    </button>
+    <p class="download-hint">Descarga un único archivo .html con todas las fotos incrustadas: se puede compartir, abrir sin conexión e imprimir en A3 (tamaño ya preconfigurado) sin depender de la carpeta "dedica".</p>
+  </div>
+
 </div>
 
 <div class="lightbox-overlay" id="lightbox">
@@ -597,6 +676,65 @@
     });
     document.addEventListener('keydown', function(e){
       if(e.key === 'Escape') closeLightbox();
+    });
+  })();
+</script>
+
+<script>
+  (function(){
+    var downloadBtn = document.getElementById('downloadBtn');
+    if(!downloadBtn) return;
+
+    function mimeFromSrc(src){
+      var ext = src.split('?')[0].split('.').pop().toLowerCase();
+      if(ext === 'jpg' || ext === 'jpeg' || ext === 'jfif') return 'image/jpeg';
+      if(ext === 'svg') return 'image/svg+xml';
+      if(ext === 'gif') return 'image/gif';
+      if(ext === 'webp') return 'image/webp';
+      return 'image/png';
+    }
+
+    function imgToDataURL(img){
+      var canvas = document.createElement('canvas');
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      var ctx = canvas.getContext('2d');
+      ctx.drawImage(img, 0, 0);
+      return canvas.toDataURL(mimeFromSrc(img.currentSrc || img.src), 0.95);
+    }
+
+    downloadBtn.addEventListener('click', function(){
+      var originalLabel = downloadBtn.innerHTML;
+      downloadBtn.disabled = true;
+      downloadBtn.textContent = 'Generando…';
+
+      try{
+        var originalImgs = Array.prototype.slice.call(document.querySelectorAll('img'));
+        var clone = document.documentElement.cloneNode(true);
+        var clonedImgs = clone.querySelectorAll('img');
+
+        originalImgs.forEach(function(img, i){
+          if(!img.src || img.src.indexOf('data:') === 0 || !clonedImgs[i]) return;
+          var dataUrl = imgToDataURL(img);
+          if(dataUrl) clonedImgs[i].setAttribute('src', dataUrl);
+        });
+
+        var html = '<!doctype html>\n' + clone.outerHTML;
+        var blob = new Blob([html], { type: 'text/html' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = 'celia-eduardo-dedicatoria.html';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }catch(err){
+        alert('No se pudo generar el archivo: ' + err);
+      }finally{
+        downloadBtn.disabled = false;
+        downloadBtn.innerHTML = originalLabel;
+      }
     });
   })();
 </script>
