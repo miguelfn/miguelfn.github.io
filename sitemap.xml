@@ -146,5 +146,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/nomenclature-tutorials-tests.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/nomenclature-tutorials-tests.html"/>
   </url>
+    <url>
+    <loc>https://miguelfn.github.io/es/tools/chemical-fusion-game.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/chemical-fusion-game.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/chemical-fusion-game.html"/>
+  </url>
+  <url>
+    <loc>https://miguelfn.github.io/en/tools/chemical-fusion-game.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://miguelfn.github.io/en/tools/chemical-fusion-game.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://miguelfn.github.io/es/tools/chemical-fusion-game.html"/>
+  </url>
 
 </urlset>
