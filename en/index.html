@@ -659,11 +659,23 @@
     }
     .sc-featured-footer p { font-size: .82rem; color: var(--muted); }
 
+    /* ── Category subheadings (Utilities / Tutorials, tests & games) ── */
+    .sc-category { margin-bottom: 3rem; }
+    .sc-category:last-child { margin-bottom: 0; }
+    .sc-category-heading {
+      display: flex; align-items: center; gap: .6rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.05rem; font-weight: 700; color: var(--text);
+      margin-bottom: 1.3rem;
+    }
+    .sc-category-heading .sc-category-icon { font-size: 1.2rem; }
+
     /* ── Three portrait cards ── */
     .sc-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
+      align-items: start;
     }
     .sc-card {
       background: var(--panel);
@@ -1102,6 +1114,13 @@
             <p>300+ fundamental constants with values, units, and uncertainty data.</p>
           </div>
         </a>
+        <a class="tool-row" href="tools/chemical-fusion-game.html">
+          <div class="tool-bullet">⚛️</div>
+          <div class="tool-text">
+            <h4>Chemical Fusion (game)</h4>
+            <p>Combine elements in exact amounts and discover 140+ real compounds, with hints and 8 progression levels.</p>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -1111,124 +1130,151 @@
   <section id="screenshots">
     <div class="section-inner">
       <div class="section-header">
-    
+
         <h2 class="heading">SCREENSHOTS</h2>
-       
+
       </div>
 
-      <!-- PERIODIC TABLE: full-width horizontal card -->
-      <div class="sc-featured">
-        <div class="sc-featured-screen">
-          <div class="tablet-mockup">
-            <div class="tablet-screen">
-              <img src="img/cap_pt.png"
-                   alt="Interactive periodic table" />
+      <!-- ══════════ UTILITIES ══════════ -->
+      <div class="sc-category">
+        <div class="sc-category-heading"><span class="sc-category-icon">🧰</span> Utilities</div>
+
+        <!-- PERIODIC TABLE: full-width horizontal card -->
+        <div class="sc-featured">
+          <div class="sc-featured-screen">
+            <div class="tablet-mockup">
+              <div class="tablet-screen">
+                <img src="img/cap_pt.png"
+                     alt="Interactive periodic table" />
+              </div>
+            </div>
+          </div>
+          <div class="sc-featured-footer">
+            <div>
+              <div class="sc-tag blue">⚛ Main feature</div>
+              <h4>Interactive periodic table</h4>
+              <p>Customizable display · 40+ properties · Isotopes · Advanced search</p>
             </div>
           </div>
         </div>
-        <div class="sc-featured-footer">
-          <div>
-            <div class="sc-tag blue">⚛ Main feature</div>
-            <h4>Interactive periodic table</h4>
-            <p>Customizable display · 40+ properties · Isotopes · Advanced search</p>
+
+        <div class="sc-grid">
+
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                  <img src="img/cap_visor.png" alt="Molecular viewer" />
+                </div>
+              </div>
+            </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag green">⬡ Molecule viewer & info</div>
+              <h4>Interactive molecular viewer</h4>
+              <p>Over 120 molecules with full geometry and data.</p>
+            </div>
           </div>
+
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                  <img src="img/cap_calculadoras.png" alt="Scientific calculators" />
+                </div>
+              </div>
+            </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag violet">📐 Tools</div>
+              <h4>Scientific calculators</h4>
+              <p>Stoichiometry, pH &amp; acid-base, molecular mass, molarity, gases, and more.</p>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                  <img src="img/cap_pesos.png" alt="Weights calculator" />
+                </div>
+              </div>
+            </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag green">⚖ Calculator</div>
+              <h4>Weights calculator</h4>
+              <p>Look up atomic and molecular weights in seconds.</p>
+            </div>
+          </div>
+
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                  <img src="img/cap_menu_full.png" alt="Full tools menu" />
+                </div>
+              </div>
+            </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag blue">🛠 Navigation</div>
+              <h4>Tools menu</h4>
+              <p>Quick access to every calculator, table, and tool in the app.</p>
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <!-- PORTRAIT CARDS: feature screenshots -->
-      <div class="sc-grid">
+      <!-- ══════════ TUTORIALS, TESTS & GAMES ══════════ -->
+      <div class="sc-category">
+        <div class="sc-category-heading"><span class="sc-category-icon">🎓</span> Tutorials, tests &amp; games</div>
 
-        <div class="sc-card">
-          <div class="sc-card-screen">
-            <div class="phone-shell">
-              <div class="phone-screen">
-                <img src="img/cap_visor.png" alt="Molecular viewer" />
+        <div class="sc-grid">
+
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                     <img src="img/cap_tutorial.png" alt="Formulation tutorial" />
+                </div>
               </div>
             </div>
-          </div>
-          <div class="sc-card-footer">
-            <div class="sc-tag green">⬡ Molecule viewer & info</div>
-            <h4>Interactive molecular viewer</h4>
-            <p>Over 120 molecules with full geometry and data.</p>
-          </div>
-        </div>
-
-        <div class="sc-card">
-          <div class="sc-card-screen">
-            <div class="phone-shell">
-              <div class="phone-screen">
-                <img src="img/cap_calculadoras.png" alt="Scientific calculators" />
-              </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag violet">📖 Learn</div>
+              <h4>Formulation tutorial</h4>
+              <p>Step-by-step lessons on inorganic and organic nomenclature.</p>
             </div>
           </div>
-          <div class="sc-card-footer">
-            <div class="sc-tag violet">📐 Tools</div>
-            <h4>Scientific calculators</h4>
-            <p>Stoichiometry, pH &amp; acid-base, molecular mass, molarity, gases, and more.</p>
-          </div>
-        </div>
 
-        <div class="sc-card">
-          <div class="sc-card-screen">
-            <div class="phone-shell">
-              <div class="phone-screen">
-                <img src="img/cap_tests.png" alt="Formulation tests" />
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                  <img src="img/cap_tests.png" alt="Formulation tests" />
+                </div>
               </div>
             </div>
-          </div>
-          <div class="sc-card-footer">
-            <div class="sc-tag orange">🎯 Practice</div>
-            <h4>Formulation tests</h4>
-            <p>Inorganic and organic, to reinforce naming conventions.</p>
-          </div>
-        </div>
-
-        <!-- NEW: placeholder slots — swap .sc-placeholder for an <img> once the screenshot is ready -->
-        <div class="sc-card">
-          <div class="sc-card-screen">
-            <div class="phone-shell">
-              <div class="phone-screen">
-                <img src="img/cap_menu.png" alt="Access to every calculator and tool" />
-              </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag orange">🎯 Practice</div>
+              <h4>Formulation tests</h4>
+              <p>Inorganic and organic, to reinforce naming conventions.</p>
             </div>
           </div>
-          <div class="sc-card-footer">
-            <div class="sc-tag blue">🛠 Navigation</div>
-            <h4>Tools menu</h4>
-            <p>Quick access to every calculator and tool in one place.</p>
-          </div>
-        </div>
 
-        <div class="sc-card">
-          <div class="sc-card-screen">
-            <div class="phone-shell">
-              <div class="phone-screen">
-                <img src="img/cap_pesos.png" alt="Weights calculator" />
+          <div class="sc-card">
+            <div class="sc-card-screen">
+              <div class="phone-shell">
+                <div class="phone-screen">
+                  <img src="img/cap_fusion.jpg" alt="Chemical Fusion" />
+                </div>
               </div>
             </div>
-          </div>
-          <div class="sc-card-footer">
-            <div class="sc-tag green">⚖ Calculator</div>
-            <h4>Weights calculator</h4>
-            <p>Look up atomic and molecular weights in seconds.</p>
-          </div>
-        </div>
-
-        <div class="sc-card">
-          <div class="sc-card-screen">
-            <div class="phone-shell">
-              <div class="phone-screen">
-                   <img src="img/cap_tutorial.png" alt="Formulation tutorial" />
-              </div>
+            <div class="sc-card-footer">
+              <div class="sc-tag blue">🧬 Game</div>
+              <h4>Chemical Fusion</h4>
+              <p>Combine elements in exact amounts and discover 140+ real compounds.</p>
             </div>
           </div>
-          <div class="sc-card-footer">
-            <div class="sc-tag violet">📖 Learn</div>
-            <h4>Formulation tutorial</h4>
-            <p>Step-by-step lessons on inorganic and organic nomenclature.</p>
-          </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </section>
