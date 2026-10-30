@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Butarque</name>
+  <description>10ª Ruta de la Tapa en Villaverde 2026 · 6, 7, 8 y 9 de noviembre · Caña + Tapa: 3,00 € · Organiza: Asociación de Autónomos de Villaverde (vivirvillaverde.com)</description>
+  <Style id="butarque"><IconStyle><color>ffBF5F8B</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="ciudad-de-los-angeles"><IconStyle><color>ff2C9AD3</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="san-cristobal"><IconStyle><color>ff479A4E</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-alto"><IconStyle><color>ff6A36C8</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-bajo"><IconStyle><color>ff3577C7</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Folder>
+    <name>Butarque</name>
+    <Placemark>
+      <name>1. Casa Kika</name>
+      <description>Tosta de sardina ahumada con queso de cabra y mermelada de pimientos
+📍 Calle Berrocal, 12, Local 1, 28021 Madrid
+📞 640 647 106
+✉️ ajrctcm@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>1</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Tosta de sardina ahumada con queso de cabra y mermelada de pimientos</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 12, Local 1, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>640 647 106</value></Data>
+        <Data name="Email"><value>ajrctcm@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/01-casa-kika-tapa.jpg https://miguelfn.github.io/img/01-casa-kika-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.677802,40.347601,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>2. Chic Coin Bar</name>
+      <description>Bocado de Tierra y Mar — Tosta de pan, mozzarella, anchoa, albahaca, tomate y unas gotitas de crema de vinagre balsámico de Módena.
+📍 Calle Berrocal, 16, 28021 Madrid
+📞 680 206 506
+✉️ playwithusforever@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>2</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Bocado de Tierra y Mar</value></Data>
+        <Data name="Descripción"><value>Tosta de pan, mozzarella, anchoa, albahaca, tomate y unas gotitas de crema de vinagre balsámico de Módena.</value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 16, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>680 206 506</value></Data>
+        <Data name="Email"><value>playwithusforever@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/02-chic-coin-bar-tapa.jpg https://miguelfn.github.io/img/02-chic-coin-bar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.677665,40.347163,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>3. Kebab Armenia</name>
+      <description>Brocheta marinada de pollo salsa secreta
+📍 Calle Berrocal, 7, Local 12, 28021 Madrid
+📞 639 541 711
+✉️ Karen080780@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>3</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Brocheta marinada de pollo salsa secreta</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 7, Local 12, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>639 541 711</value></Data>
+        <Data name="Email"><value>Karen080780@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/03-kebab-armenia-tapa.jpg https://miguelfn.github.io/img/03-kebab-armenia-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.676527,40.345434,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>4. Maytetxu</name>
+      <description>Ensaladilla de boniato, atún y crunch de pepinillo
+📍 Calle Berrocal, 5, Local 10, 28021 Madrid
+📞 685 975 334
+✉️ ocioberrocal@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>4</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Ensaladilla de boniato, atún y crunch de pepinillo</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 5, Local 10, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>685 975 334</value></Data>
+        <Data name="Email"><value>ocioberrocal@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/04-maytetxu-tapa.jpg https://miguelfn.github.io/img/04-maytetxu-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.676774,40.346444,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>5. Bar Restaurante Olimpeo II</name>
+      <description>Tapa sorpresa
+📍 Calle Berrocal, 1, 28021 Madrid
+📞 663 300 807
+✉️ juantornero27@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>5</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 1, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>663 300 807</value></Data>
+        <Data name="Email"><value>juantornero27@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/05-bar-restaurante-olimpeo-ii-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.677267,40.34831,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>6. Casa Asia</name>
+      <description>Rollito – Pan con gambas
+📍 Calle Berrocal, 7, Local 10, 28021 Madrid
+📞 615 057 738
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>6</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Rollito – Pan con gambas</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 7, Local 10, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>615 057 738</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/06-casa-asia-tapa.jpg https://miguelfn.github.io/img/06-casa-asia-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.676437,40.345504,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>7. Trujillo Restaurante</name>
+      <description>Patatas revolconas al estilo ají y torrezno casero marinado
+📍 Calle Berrocal, 1, 28021 Madrid
+📞 601 253 699
+✉️ jcan@uniontrujillo.es
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>7</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Patatas revolconas al estilo ají y torrezno casero marinado</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Berrocal, 1, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>601 253 699</value></Data>
+        <Data name="Email"><value>jcan@uniontrujillo.es</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/07-trujillo-restaurante-tapa.jpg https://miguelfn.github.io/img/07-trujillo-restaurante-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.677177,40.34838,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>8. Pastelería Chico</name>
+      <description>Tapa sorpresa
+📍 Calle Estefanita, 6, 28021 Madrid
+📞 915 055 017
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#butarque</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>8</value></Data>
+        <Data name="Barrio"><value>Butarque</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Estefanita, 6, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>915 055 017</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/08-pasteleria-chico-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.676504,40.348261,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

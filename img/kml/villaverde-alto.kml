@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Villaverde Alto</name>
+  <description>10ª Ruta de la Tapa en Villaverde 2026 · 6, 7, 8 y 9 de noviembre · Caña + Tapa: 3,00 € · Organiza: Asociación de Autónomos de Villaverde (vivirvillaverde.com)</description>
+  <Style id="butarque"><IconStyle><color>ffBF5F8B</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="ciudad-de-los-angeles"><IconStyle><color>ff2C9AD3</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="san-cristobal"><IconStyle><color>ff479A4E</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-alto"><IconStyle><color>ff6A36C8</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-bajo"><IconStyle><color>ff3577C7</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Folder>
+    <name>Villaverde Alto</name>
+    <Placemark>
+      <name>33. Gastrobar Ichizu</name>
+      <description>Pincho de pollo al curry
+📍 Calle Eduardo Barreiros, 149, 28041 Madrid
+📞 644 176 675
+✉️ gastrobarichizu@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>33</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Pincho de pollo al curry</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Eduardo Barreiros, 149, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>644 176 675</value></Data>
+        <Data name="Email"><value>gastrobarichizu@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/33-gastrobar-ichizu-tapa.jpg https://miguelfn.github.io/img/33-gastrobar-ichizu-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.704609,40.351023,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>34. La Picota II</name>
+      <description>Champiñón relleno de jamón y patatas paja
+📍 Calle Domingo Párraga, 38, 28021 Madrid
+📞 917 987 535
+🌐 restauranteslapicota.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>34</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Champiñón relleno de jamón y patatas paja</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Domingo Párraga, 38, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>917 987 535</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/34-la-picota-ii-tapa.jpg https://miguelfn.github.io/img/34-la-picota-ii-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.711939,40.342118,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>35. Churrería La Original</name>
+      <description>Churrodog ibérico
+📍 Avenida Espinela, 3, 28021 Madrid
+📞 619 236 411
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>35</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Churrodog ibérico</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Avenida Espinela, 3, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>619 236 411</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/35-churreria-la-original-tapa.jpg https://miguelfn.github.io/img/35-churreria-la-original-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.709004,40.345816,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>36. Restaurante Bongo de Nancy</name>
+      <description>Taco criollo de cerdo
+📍 Calle Parvillas Altas, 27, 28021 Madrid
+📞 917 047 101
+✉️ arturoclemenciaparedes@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>36</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Taco criollo de cerdo</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Parvillas Altas, 27, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>917 047 101</value></Data>
+        <Data name="Email"><value>arturoclemenciaparedes@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/36-restaurante-bongo-de-nancy-tapa.jpg https://miguelfn.github.io/img/36-restaurante-bongo-de-nancy-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.709064,40.344816,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>37. La Mancheguita</name>
+      <description>Gachas manchegas
+📍 Calle Escribanos, 11, 28021 Madrid
+📞 915 053 688
+✉️ ramacoes@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>37</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Gachas manchegas</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Escribanos, 11, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>915 053 688</value></Data>
+        <Data name="Email"><value>ramacoes@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/37-la-mancheguita-tapa.jpg https://miguelfn.github.io/img/37-la-mancheguita-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.711736,40.342957,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>38. Asador de Enrique</name>
+      <description>Solomillo con cebolla caramelizada y patatas paja
+📍 Avenida Espinela, 15, 28021 Madrid
+📞 639 089 637
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>38</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Solomillo con cebolla caramelizada y patatas paja</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Avenida Espinela, 15, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>639 089 637</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/38-asador-de-enrique-tapa.jpg https://miguelfn.github.io/img/38-asador-de-enrique-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.709377,40.344748,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>39. Bar Cafetería Kaly El Moradito</name>
+      <description>Musaka — Carne picada cuidadosamente sazonada sobre una delicada cama de mousse de patata y berenjena, cubierta con una fina capa de queso gratinado al horno hasta alcanzar un dorado perfecto. Una tapa de inspiración mediterránea, cremosa, elegante y llena de sabor.
+📍 Avenida Real de Pinto, 31, 28021 Madrid
+📞 642 936 295
+✉️ Big_cottoc_aby@yahoo.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>39</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Musaka</value></Data>
+        <Data name="Descripción"><value>Carne picada cuidadosamente sazonada sobre una delicada cama de mousse de patata y berenjena, cubierta con una fina capa de queso gratinado al horno hasta alcanzar un dorado perfecto. Una tapa de inspiración mediterránea, cremosa, elegante y llena de sabor.</value></Data>
+        <Data name="Dirección"><value>Avenida Real de Pinto, 31, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>642 936 295</value></Data>
+        <Data name="Email"><value>Big_cottoc_aby@yahoo.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/39-bar-cafeteria-kaly-el-moradito-tapa.jpg https://miguelfn.github.io/img/39-bar-cafeteria-kaly-el-moradito-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.706184,40.34585,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>40. Bar La Morcilla</name>
+      <description>Callos con garbanzos
+📍 Calle Alberto Palacios, 2, 28021 Madrid
+📞 607 703 139
+✉️ lamorcilla@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>40</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Callos con garbanzos</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Alberto Palacios, 2, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>607 703 139</value></Data>
+        <Data name="Email"><value>lamorcilla@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/40-bar-la-morcilla-tapa.jpg https://miguelfn.github.io/img/40-bar-la-morcilla-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.712827,40.344526,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>41. Cafetería Renato</name>
+      <description>Tosta de aguacate y salmón ahumado — Base de tosta de pan, aguacate, salmón ahumado con toque de sésamo y salsa tártara.
+📍 Calle Alcocer, 45, 28021 Madrid
+📞 625 459 090
+✉️ armaupafe7@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>41</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Tosta de aguacate y salmón ahumado</value></Data>
+        <Data name="Descripción"><value>Base de tosta de pan, aguacate, salmón ahumado con toque de sésamo y salsa tártara.</value></Data>
+        <Data name="Dirección"><value>Calle Alcocer, 45, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>625 459 090</value></Data>
+        <Data name="Email"><value>armaupafe7@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/41-cafeteria-renato-tapa.jpg https://miguelfn.github.io/img/41-cafeteria-renato-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.705652,40.349617,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>42. Restaurante La Madrina</name>
+      <description>Hornado — Lleva: cerdo adobado y al horno con guarnición de cebolla roja con lima y cilantro.
+📍 Paseo Alberto Palacios, 50, 28021 Madrid
+📞 673 804 006
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>42</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Hornado</value></Data>
+        <Data name="Descripción"><value>Lleva: cerdo adobado y al horno con guarnición de cebolla roja con lima y cilantro.</value></Data>
+        <Data name="Dirección"><value>Paseo Alberto Palacios, 50, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>673 804 006</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/42-restaurante-la-madrina-tapa.jpg https://miguelfn.github.io/img/42-restaurante-la-madrina-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.713397,40.34441,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>43. Café Habana</name>
+      <description>Cerdo asado con plátano frito
+📍 Plaza de Ágata, 9, 28021 Madrid
+📞 913 616 174
+✉️ tadaysl@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>43</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Cerdo asado con plátano frito</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza de Ágata, 9, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>913 616 174</value></Data>
+        <Data name="Email"><value>tadaysl@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/43-cafe-habana-tapa.jpg https://miguelfn.github.io/img/43-cafe-habana-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.708879,40.346926,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>44. Bar Hondureño Sánchez</name>
+      <description>Empanadas hondureñas
+📍 Calle Vieja de Pinto, 22, 28021 Madrid
+📞 643 884 724
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>44</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Empanadas hondureñas</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Vieja de Pinto, 22, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>643 884 724</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/44-bar-hondureno-sanchez-tapa.jpg https://miguelfn.github.io/img/44-bar-hondureno-sanchez-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.708688,40.347066,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>45. La Muralla</name>
+      <description>Mini papa rellena colombiana — Una masa suave de papa cocida y prensada, rellena con un sabroso guiso de carne picada, cebolla, aderezos y huevo duro. Frita a la perfección, ofrece un contraste irresistible entre un exterior dorado y crujiente y un interior tierno y lleno de sabor. Se acompaña con el auténtico ají y salsa rosada.
+📍 Paseo de los Talleres, 60, 28021 Madrid
+📞 622 862 732
+✉️ barlamuralla9@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>45</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Mini papa rellena colombiana</value></Data>
+        <Data name="Descripción"><value>Una masa suave de papa cocida y prensada, rellena con un sabroso guiso de carne picada, cebolla, aderezos y huevo duro. Frita a la perfección, ofrece un contraste irresistible entre un exterior dorado y crujiente y un interior tierno y lleno de sabor. Se acompaña con el auténtico ají y salsa rosada.</value></Data>
+        <Data name="Dirección"><value>Paseo de los Talleres, 60, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>622 862 732</value></Data>
+        <Data name="Email"><value>barlamuralla9@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/45-la-muralla-tapa.jpg https://miguelfn.github.io/img/45-la-muralla-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.70485,40.347384,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>46. Bar Mauri</name>
+      <description>Hamburguesa y chorizo criollo
+📍 Calle Antimonio, 17, 28021 Madrid
+📞 618 133 174
+✉️ maribelcoronel@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>46</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Hamburguesa y chorizo criollo</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Antimonio, 17, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>618 133 174</value></Data>
+        <Data name="Email"><value>maribelcoronel@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/46-bar-mauri-tapa.jpg https://miguelfn.github.io/img/46-bar-mauri-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.708387,40.347037,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>47. Bar Robledo</name>
+      <description>Callos al estilo Robledo
+📍 Calle Doctor Martín Arévalo, 43, 28021 Madrid
+📞 917 952 210
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>47</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Callos al estilo Robledo</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Doctor Martín Arévalo, 43, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>917 952 210</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/47-bar-robledo-tapa.jpg https://miguelfn.github.io/img/47-bar-robledo-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.705121,40.34645,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>48. Restaurante Serradilla de la Alegría</name>
+      <description>Perrito de carne mechada y salsa trufada
+📍 Calle Doctor Criado, 9, 28021 Madrid
+📞 696 178 283
+✉️ laalegriabodega@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>48</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Perrito de carne mechada y salsa trufada</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Doctor Criado, 9, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>696 178 283</value></Data>
+        <Data name="Email"><value>laalegriabodega@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/48-restaurante-serradilla-de-la-alegria-tapa.jpg https://miguelfn.github.io/img/48-restaurante-serradilla-de-la-alegria-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.704446,40.34803,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>49. Bar Pedraza</name>
+      <description>Bacalao rebozado con guarnición del secreto del chef
+📍 Calle Cacereños, 17, 28021 Madrid
+📞 639 561 802
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>49</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Bacalao rebozado con guarnición del secreto del chef</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Cacereños, 17, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>639 561 802</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/49-bar-pedraza-tapa.jpg https://miguelfn.github.io/img/49-bar-pedraza-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.714101,40.346038,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>50. Cervecería El Uno</name>
+      <description>Carrillada al Pedro Ximénez en pan tostado y crema de patata
+📍 Calle Arroyo Bueno, 7, 28021 Madrid
+📞 651 773 848
+✉️ anibal.1970@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>50</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Carrillada al Pedro Ximénez en pan tostado y crema de patata</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Arroyo Bueno, 7, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>651 773 848</value></Data>
+        <Data name="Email"><value>anibal.1970@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/50-cerveceria-el-uno-tapa.jpg https://miguelfn.github.io/img/50-cerveceria-el-uno-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.705614,40.348711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>51. Café Saxobar</name>
+      <description>Tapa sorpresa
+📍 Plaza Mayor de Villaverde, 9, 28021 Madrid
+📞 632 505 702
+✉️ alzarza@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>51</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza Mayor de Villaverde, 9, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>632 505 702</value></Data>
+        <Data name="Email"><value>alzarza@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/51-cafe-saxobar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.707642,40.347231,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>52. Restaurante Casa Vázquez</name>
+      <description>Champiñones rellenos y gratinados al horno
+📍 Calle Amadeo Fernández, 1, 28021 Madrid
+📞 665 274 833
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>52</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Champiñones rellenos y gratinados al horno</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Amadeo Fernández, 1, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>665 274 833</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/52-restaurante-casa-vazquez-tapa.jpg https://miguelfn.github.io/img/52-restaurante-casa-vazquez-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.705727,40.344512,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>53. Bendita</name>
+      <description>Mini tostas: Gula, Soberbia y de queso — Mini tosta Gula: tosta de mascarpone, pera caramelizada y nueces. Mini tosta Soberbia: tosta de humus, cherrys asados y sésamo negro. Mini tosta de queso.
+📍 Avenida Real de Pinto, 21, 28021 Madrid
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>53</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Mini tostas: Gula, Soberbia y de queso</value></Data>
+        <Data name="Descripción"><value>Mini tosta Gula: tosta de mascarpone, pera caramelizada y nueces. Mini tosta Soberbia: tosta de humus, cherrys asados y sésamo negro. Mini tosta de queso.</value></Data>
+        <Data name="Dirección"><value>Avenida Real de Pinto, 21, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value></value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/53-bendita-tapa.jpg https://miguelfn.github.io/img/53-bendita-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.706208,40.347302,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>54. Peña Madridista La Saeta</name>
+      <description>Solomillo al whisky / Pulpo a la gallega
+📍 Calle Asfalto, 3, 28021 Madrid
+📞 610 425 705
+✉️ lidicesanchezrosado@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>54</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Solomillo al whisky / Pulpo a la gallega</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Asfalto, 3, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>610 425 705</value></Data>
+        <Data name="Email"><value>lidicesanchezrosado@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/54-pena-madridista-la-saeta-tapa.jpg https://miguelfn.github.io/img/54-pena-madridista-la-saeta-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.707219,40.347531,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>55. Ángel Gastrobar</name>
+      <description>Oreja trufada en salsa y kimchi de coco
+📍 Calle Eduardo Barreiros, 149, 28041 Madrid
+📞 911 667 830 / 640 815 259
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>55</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Oreja trufada en salsa y kimchi de coco</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Eduardo Barreiros, 149, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>911 667 830 / 640 815 259</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/55-angel-gastrobar-tapa.jpg https://miguelfn.github.io/img/55-angel-gastrobar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.704519,40.351093,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>56. Bar Arias El Torrezno</name>
+      <description>Torrezno
+📍 Calle Getafe, 12, 28021 Madrid
+📞 627 648 240
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>56</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Torrezno</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Getafe, 12, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>627 648 240</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/56-bar-arias-el-torrezno-tapa.jpg https://miguelfn.github.io/img/56-bar-arias-el-torrezno-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.707827,40.34373,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>57. Los Guayos</name>
+      <description>La Discordia, La Guayo, La Papu, La Sabrosa, La Secreta
+📍 Paseo Alberto Palacios, 83, 28021 Madrid
+📞 613 215 106 / 634 046 073 / 624 127 733
+✉️ restaurantelosguayos@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>57</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>La Discordia, La Guayo, La Papu, La Sabrosa, La Secreta</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Paseo Alberto Palacios, 83, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>613 215 106 / 634 046 073 / 624 127 733</value></Data>
+        <Data name="Email"><value>restaurantelosguayos@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/57-los-guayos-tapa.jpg https://miguelfn.github.io/img/57-los-guayos-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.71738,40.343036,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>58. Bar Restaurante Musical Ágata</name>
+      <description>Mini picapollo — Es una miniatura de nuestro plato estrella que es el picapollo. Es pollo frito con un tostón y cebolla roja. Y una salsa brava.
+📍 Plaza de Ágata, 8, 28021 Madrid
+📞 632 616 405
+✉️ sol_hc09@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>58</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Mini picapollo</value></Data>
+        <Data name="Descripción"><value>Es una miniatura de nuestro plato estrella que es el picapollo. Es pollo frito con un tostón y cebolla roja. Y una salsa brava.</value></Data>
+        <Data name="Dirección"><value>Plaza de Ágata, 8, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>632 616 405</value></Data>
+        <Data name="Email"><value>sol_hc09@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/58-bar-restaurante-musical-agata-tapa.jpg https://miguelfn.github.io/img/58-bar-restaurante-musical-agata-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.708995,40.346904,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>59. Avaria Café Bar</name>
+      <description>Pelo pincho — Carne de ternera desmechada con queso dentro de enrollado de plátano maduro frito.
+📍 Calle Alcocer, 43, 28021 Madrid
+📞 600 632 325
+✉️ Avaria.bar@gmail.es
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>59</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Pelo pincho</value></Data>
+        <Data name="Descripción"><value>Carne de ternera desmechada con queso dentro de enrollado de plátano maduro frito.</value></Data>
+        <Data name="Dirección"><value>Calle Alcocer, 43, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>600 632 325</value></Data>
+        <Data name="Email"><value>Avaria.bar@gmail.es</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/59-avaria-cafe-bar-tapa.jpg https://miguelfn.github.io/img/59-avaria-cafe-bar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.703879,40.350073,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>60. La Bajada</name>
+      <description>Cevichito de pescado — Pescado marinado en jugo de lima, cebolla y cilantro, servido con cancha, choclo y camote. Restaurante peruano.
+📍 Calle Arroyo Bueno, 4, 28021 Madrid
+📞 654 928 051
+✉️ administracion@restaurantelabajada.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>60</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Cevichito de pescado</value></Data>
+        <Data name="Descripción"><value>Pescado marinado en jugo de lima, cebolla y cilantro, servido con cancha, choclo y camote. Restaurante peruano.</value></Data>
+        <Data name="Dirección"><value>Calle Arroyo Bueno, 4, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>654 928 051</value></Data>
+        <Data name="Email"><value>administracion@restaurantelabajada.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/60-la-bajada-tapa.jpg https://miguelfn.github.io/img/60-la-bajada-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.705616,40.348935,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>61. Bar Galicia</name>
+      <description>Tapa sorpresa
+📍 Calle Juan Peñalver, 36, 28021 Madrid
+📞 609 276 977
+✉️ marcerf626@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>61</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Juan Peñalver, 36, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>609 276 977</value></Data>
+        <Data name="Email"><value>marcerf626@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/61-bar-galicia-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.713683,40.346325,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>62. Mercado Gastrobar</name>
+      <description>Cayeye coronado con torreznos de Soria
+📍 Calle Calamina, 6, 28021 Madrid
+📞 613 965 832
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>62</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Cayeye coronado con torreznos de Soria</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Calamina, 6, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>613 965 832</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/62-mercado-gastrobar-tapa.jpg https://miguelfn.github.io/img/62-mercado-gastrobar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.711397,40.346689,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>63. El Rincón de Olfa</name>
+      <description>Tapa sorpresa
+📍 Calle Doctor Martín Arévalo, 27, 28021 Madrid
+📞 626 387 017
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>63</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Doctor Martín Arévalo, 27, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>626 387 017</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/63-el-rincon-de-olfa-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.706613,40.346222,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>64. Bar La Mezquita</name>
+      <description>Carne al amor
+📍 Calle Grafito, 12, 28021 Madrid
+📞 677 371 643
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>64</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Carne al amor</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Grafito, 12, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>677 371 643</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/64-bar-la-mezquita-tapa.jpg https://miguelfn.github.io/img/64-bar-la-mezquita-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.715516,40.346183,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>65. Kebab España</name>
+      <description>Kebab de carne y patatas
+📍 Paseo Alberto Palacios, 34, 28021 Madrid
+📞 654 988 546
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>65</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Kebab de carne y patatas</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Paseo Alberto Palacios, 34, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>654 988 546</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/65-kebab-espana-tapa.jpg https://miguelfn.github.io/img/65-kebab-espana-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.712413,40.345859,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>66. Noor Kebab</name>
+      <description>Kebab de carne y patatas
+📍 Calle Oxígeno, 7, 28021 Madrid
+📞 654 988 546
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>66</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Kebab de carne y patatas</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Oxígeno, 7, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>654 988 546</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/66-noor-kebab-tapa.jpg https://miguelfn.github.io/img/66-noor-kebab-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.706746,40.347127,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>67. La Picota I</name>
+      <description>Canapé de panceta con pimiento verde
+📍 Avenida Real de Pinto, 37, 28021 Madrid
+📞 641 061 882
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-alto</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>67</value></Data>
+        <Data name="Barrio"><value>Villaverde Alto</value></Data>
+        <Data name="Tapa"><value>Canapé de panceta con pimiento verde</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Avenida Real de Pinto, 37, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>641 061 882</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/67-la-picota-i-tapa.jpg https://miguelfn.github.io/img/67-la-picota-i-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.706361,40.345489,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

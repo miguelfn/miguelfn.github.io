@@ -2,7 +2,7 @@
 
 Mapa de los **77 establecimientos** del folleto oficial (6, 7, 8 y 9 de noviembre de 2026 · Caña + Tapa: 3,00 €).
 
-Web: https://miguelfn.github.io/rt2026/
+Web: https://miguelfn.github.io/img/
 
 ## Contenido
 
@@ -13,12 +13,12 @@ Web: https://miguelfn.github.io/rt2026/
 | `kml/<barrio>.kml` | Un KML por barrio, por si quieres una capa por barrio en My Maps. |
 | `ruta-tapa-villaverde-2026.csv` | Los mismos datos en tabla (Excel / Google Sheets / importación alternativa). |
 | `bares.json` | Datos completos en JSON. |
-| `img/` | Fotos de cada tapa (`NN-nombre-tapa.jpg`) y de cada local (`NN-nombre-local.jpg`), más la portada. |
+| `*.jpg` | Fotos de cada tapa (`NN-nombre-tapa.jpg`) y de cada local (`NN-nombre-local.jpg`), más la portada. |
 
 ## Subir a GitHub Pages
 
-Sube todo el contenido de esta carpeta (salvo el PDF, si no quieres publicarlo) al repositorio `rt2026`.
-Las fotos tienen que estar publicadas en `https://miguelfn.github.io/rt2026/img/...` **antes** de importar el KML,
+Todo (web, datos y fotos) está en la carpeta `img/`. Súbela tal cual a la raíz del repositorio `miguelfn.github.io`, de modo que quede `img/...`.
+Las fotos tienen que estar publicadas en `https://miguelfn.github.io/img/NN-nombre-tapa.jpg` **antes** de importar el KML,
 porque Google My Maps descarga las fotos desde esas URLs.
 
 ## Crear el mapa en Google My Maps

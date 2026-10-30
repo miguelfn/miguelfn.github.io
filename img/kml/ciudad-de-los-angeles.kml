@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Ciudad de los Ángeles</name>
+  <description>10ª Ruta de la Tapa en Villaverde 2026 · 6, 7, 8 y 9 de noviembre · Caña + Tapa: 3,00 € · Organiza: Asociación de Autónomos de Villaverde (vivirvillaverde.com)</description>
+  <Style id="butarque"><IconStyle><color>ffBF5F8B</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="ciudad-de-los-angeles"><IconStyle><color>ff2C9AD3</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="san-cristobal"><IconStyle><color>ff479A4E</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-alto"><IconStyle><color>ff6A36C8</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-bajo"><IconStyle><color>ff3577C7</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Folder>
+    <name>Ciudad de los Ángeles</name>
+    <Placemark>
+      <name>9. Bar Mony</name>
+      <description>Endivia con ensaladilla rusa, aceite de soja y panecillos
+📍 Calle Dolorosa, 20, 28041 Madrid
+📞 693 683 228
+✉️ aliciamartin2130@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>9</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Endivia con ensaladilla rusa, aceite de soja y panecillos</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Dolorosa, 20, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>693 683 228</value></Data>
+        <Data name="Email"><value>aliciamartin2130@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/09-bar-mony-tapa.jpg https://miguelfn.github.io/img/09-bar-mony-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.69451,40.353884,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>10. Bar Cafetería Los Ángeles</name>
+      <description>Migas de pan a la andaluza — Deliciosas migas de pan al estilo andaluz con chorizo, lomo, panceta y pimientos de padrón.
+📍 Calle La del Manojo de Rosas, 78, 28041 Madrid
+📞 623 213 243
+✉️ lestercruzpiano@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>10</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Migas de pan a la andaluza</value></Data>
+        <Data name="Descripción"><value>Deliciosas migas de pan al estilo andaluz con chorizo, lomo, panceta y pimientos de padrón.</value></Data>
+        <Data name="Dirección"><value>Calle La del Manojo de Rosas, 78, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>623 213 243</value></Data>
+        <Data name="Email"><value>lestercruzpiano@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/10-bar-cafeteria-los-angeles-tapa.jpg https://miguelfn.github.io/img/10-bar-cafeteria-los-angeles-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.698032,40.355248,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>11. Cañabrava Bar</name>
+      <description>Tapa sorpresa
+📍 Calle Bohemios, 15, 28041 Madrid
+📞 652 397 933
+✉️ ababd@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>11</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Bohemios, 15, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>652 397 933</value></Data>
+        <Data name="Email"><value>ababd@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/11-canabrava-bar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.69688,40.35615,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>12. Vinoteca La Torre</name>
+      <description>Bolas de morcilla rellenas de rulo de cabra — Bolas de morcilla rellenas de rulo de cabra rebozadas con almendra y panko japonés con nuestra salsa de cebolla caramelizada y crema balsámica.
+📍 Calle La del Manojo de Rosas, 44, 28041 Madrid
+📞 670 416 956
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>12</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Bolas de morcilla rellenas de rulo de cabra</value></Data>
+        <Data name="Descripción"><value>Bolas de morcilla rellenas de rulo de cabra rebozadas con almendra y panko japonés con nuestra salsa de cebolla caramelizada y crema balsámica.</value></Data>
+        <Data name="Dirección"><value>Calle La del Manojo de Rosas, 44, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>670 416 956</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/12-vinoteca-la-torre-tapa.jpg https://miguelfn.github.io/img/12-vinoteca-la-torre-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.697518,40.358364,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>13. Pinilla II</name>
+      <description>Tapa sorpresa
+📍 Calle La del Manojo de Rosas, 71, 28041 Madrid
+📞 671 442 501
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>13</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle La del Manojo de Rosas, 71, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>671 442 501</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/13-pinilla-ii-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.697751,40.354636,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>14. Mesón A Gaviotiña</name>
+      <description>Volován de pulpo — Volovanes rellenos de ensaladilla de pulpo (a la gallega).
+📍 Calle La del Manojo de Rosas, 44, 28041 Madrid
+📞 670 416 956
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>14</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Volován de pulpo</value></Data>
+        <Data name="Descripción"><value>Volovanes rellenos de ensaladilla de pulpo (a la gallega).</value></Data>
+        <Data name="Dirección"><value>Calle La del Manojo de Rosas, 44, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>670 416 956</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/14-meson-a-gaviotina-tapa.jpg https://miguelfn.github.io/img/14-meson-a-gaviotina-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.697428,40.358434,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>15. Bar Cafetería Orense</name>
+      <description>Tosta de pollo marinado — En aceite de oliva, sal, rodaja de tomate, pollo a la plancha, queso fundido, cebolla frita y un toque de orégano.
+📍 Calle San Luciano, 15, 28041 Madrid
+📞 690 660 844
+✉️ anthonyerick12345@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>15</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Tosta de pollo marinado</value></Data>
+        <Data name="Descripción"><value>En aceite de oliva, sal, rodaja de tomate, pollo a la plancha, queso fundido, cebolla frita y un toque de orégano.</value></Data>
+        <Data name="Dirección"><value>Calle San Luciano, 15, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>690 660 844</value></Data>
+        <Data name="Email"><value>anthonyerick12345@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/15-bar-cafeteria-orense-tapa.jpg https://miguelfn.github.io/img/15-bar-cafeteria-orense-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.697789,40.363298,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>16. Bar El Refajo</name>
+      <description>Arepa rellena de carne
+📍 Calle Pan y Toros, 37, 28041 Madrid
+📞 631 241 693
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>16</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Arepa rellena de carne</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Pan y Toros, 37, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>631 241 693</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/16-bar-el-refajo-tapa.jpg https://miguelfn.github.io/img/16-bar-el-refajo-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.694349,40.357794,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>17. Bar Hermanos Luna</name>
+      <description>Magro de cerdo estofado con puré de patata y cebolla caramelizada
+📍 Calle Anoeta, 21, 28041 Madrid
+📞 693 529 837
+✉️ Raul-rld@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>17</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Magro de cerdo estofado con puré de patata y cebolla caramelizada</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Anoeta, 21, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>693 529 837</value></Data>
+        <Data name="Email"><value>Raul-rld@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/17-bar-hermanos-luna-tapa.jpg https://miguelfn.github.io/img/17-bar-hermanos-luna-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.696368,40.352523,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>18. Bar El Kubo</name>
+      <description>Mini picada colombiana — Arepa, chorizo, chicharrón y patata acompañado con guacamole.
+📍 Calle La del Manojo de Rosas, 102, 28041 Madrid
+📞 643 894 762
+✉️ eduyamaha-46@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>18</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Mini picada colombiana</value></Data>
+        <Data name="Descripción"><value>Arepa, chorizo, chicharrón y patata acompañado con guacamole.</value></Data>
+        <Data name="Dirección"><value>Calle La del Manojo de Rosas, 102, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>643 894 762</value></Data>
+        <Data name="Email"><value>eduyamaha-46@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/18-bar-el-kubo-tapa.jpg https://miguelfn.github.io/img/18-bar-el-kubo-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.698802,40.354114,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>19. Veranda</name>
+      <description>Cono carrillero — Cono de hojaldre relleno de carrillada desmechada al vino tinto con un toque de puré de patata.
+📍 Calle Pan y Toros, 6, 28041 Madrid
+📞 670 416 956
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>19</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Cono carrillero</value></Data>
+        <Data name="Descripción"><value>Cono de hojaldre relleno de carrillada desmechada al vino tinto con un toque de puré de patata.</value></Data>
+        <Data name="Dirección"><value>Calle Pan y Toros, 6, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>670 416 956</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/19-veranda-tapa.jpg https://miguelfn.github.io/img/19-veranda-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.694988,40.360299,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>20. La Bodeguilla</name>
+      <description>Patatas revolconas con torreznos
+📍 Calle Canción del Olvido, 1, 28041 Madrid
+📞 600 060 530
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>20</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Patatas revolconas con torreznos</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Canción del Olvido, 1, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>600 060 530</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/20-la-bodeguilla-tapa.jpg https://miguelfn.github.io/img/20-la-bodeguilla-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.698124,40.360839,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>21. Michelle</name>
+      <description>Tapa sorpresa
+📍 Avenida de la Verbena de la Paloma, 15, 28041 Madrid
+📞 623 205 561
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>21</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Avenida de la Verbena de la Paloma, 15, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>623 205 561</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/21-michelle-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.695942,40.359075,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>22. La Norteñita</name>
+      <description>Tapa sorpresa — Gastronomía peruana
+📍 Calle Pan y Toros, 27, 28041 Madrid
+📞 610 197 004
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#ciudad-de-los-angeles</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>22</value></Data>
+        <Data name="Barrio"><value>Ciudad de los Ángeles</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value>Gastronomía peruana</value></Data>
+        <Data name="Dirección"><value>Calle Pan y Toros, 27, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>610 197 004</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/22-la-nortenita-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.694155,40.358714,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

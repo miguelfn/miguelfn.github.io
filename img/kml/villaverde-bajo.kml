@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Villaverde Bajo</name>
+  <description>10ª Ruta de la Tapa en Villaverde 2026 · 6, 7, 8 y 9 de noviembre · Caña + Tapa: 3,00 € · Organiza: Asociación de Autónomos de Villaverde (vivirvillaverde.com)</description>
+  <Style id="butarque"><IconStyle><color>ffBF5F8B</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="ciudad-de-los-angeles"><IconStyle><color>ff2C9AD3</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="san-cristobal"><IconStyle><color>ff479A4E</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-alto"><IconStyle><color>ff6A36C8</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-bajo"><IconStyle><color>ff3577C7</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Folder>
+    <name>Villaverde Bajo</name>
+    <Placemark>
+      <name>68. La Brocheta Gourmet</name>
+      <description>Montadito de chicharrón relleno de guacamole fresco
+📍 Calle de la Alianza, 45, 28041 Madrid
+📞 642 054 336
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>68</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Montadito de chicharrón relleno de guacamole fresco</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle de la Alianza, 45, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>642 054 336</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/68-la-brocheta-gourmet-tapa.jpg https://miguelfn.github.io/img/68-la-brocheta-gourmet-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.685576,40.357807,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>69. Otra Cañita</name>
+      <description>Patata con mojo (rojo o verde) — Patata cocida con salsa.
+📍 Calle Selma Lagerloff, 6, 28021 Madrid
+📞 650 657 556
+✉️ danllore71@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>69</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Patata con mojo (rojo o verde)</value></Data>
+        <Data name="Descripción"><value>Patata cocida con salsa.</value></Data>
+        <Data name="Dirección"><value>Calle Selma Lagerloff, 6, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>650 657 556</value></Data>
+        <Data name="Email"><value>danllore71@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/69-otra-canita-tapa.jpg https://miguelfn.github.io/img/69-otra-canita-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.687952,40.354331,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>70. Sidrería + Lola</name>
+      <description>Yogur de foie — Vasito de foie de pato con base de fresa y coronado con pistacho.
+📍 Calle María Barrientos, 4, 28021 Madrid
+📞 618 463 866
+✉️ azc19azc@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>70</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Yogur de foie</value></Data>
+        <Data name="Descripción"><value>Vasito de foie de pato con base de fresa y coronado con pistacho.</value></Data>
+        <Data name="Dirección"><value>Calle María Barrientos, 4, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>618 463 866</value></Data>
+        <Data name="Email"><value>azc19azc@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/70-sidreria-lola-tapa.jpg https://miguelfn.github.io/img/70-sidreria-lola-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.686484,40.355016,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>71. Taberna Entreamigos</name>
+      <description>Sarmale — Repollo relleno de carne picada con un toque de yogurt natural. Tradicional de Rumanía (sarmale).
+📍 Calle María Barrientos, 8, 28021 Madrid
+📞 672 202 928
+✉️ marianoentreamigos@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>71</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Sarmale</value></Data>
+        <Data name="Descripción"><value>Repollo relleno de carne picada con un toque de yogurt natural. Tradicional de Rumanía (sarmale).</value></Data>
+        <Data name="Dirección"><value>Calle María Barrientos, 8, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>672 202 928</value></Data>
+        <Data name="Email"><value>marianoentreamigos@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/71-taberna-entreamigos-tapa.jpg https://miguelfn.github.io/img/71-taberna-entreamigos-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.686351,40.354382,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>72. Restaurante El Calar</name>
+      <description>Lágrimas de pollo al teriyaki
+📍 Calle Tertulia, 16, 28041 Madrid
+📞 649 071 975
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>72</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Lágrimas de pollo al teriyaki</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Tertulia, 16, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>649 071 975</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/72-restaurante-el-calar-tapa.jpg https://miguelfn.github.io/img/72-restaurante-el-calar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.692588,40.36,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>73. Donde la Lola</name>
+      <description>Taco de langostinos crunchy — Taco con base de mayowasabi acompañado de lechugas, dos langostinos crunchy, algas, guacamole y sésamo de wasabi.
+📍 Avenida de Orovilla, 59, 28041 Madrid
+📞 671 664 142
+✉️ info@dondelalola.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>73</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Taco de langostinos crunchy</value></Data>
+        <Data name="Descripción"><value>Taco con base de mayowasabi acompañado de lechugas, dos langostinos crunchy, algas, guacamole y sésamo de wasabi.</value></Data>
+        <Data name="Dirección"><value>Avenida de Orovilla, 59, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>671 664 142</value></Data>
+        <Data name="Email"><value>info@dondelalola.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/73-donde-la-lola-tapa.jpg https://miguelfn.github.io/img/73-donde-la-lola-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.689135,40.357761,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>74. El Rincón de Cintia</name>
+      <description>Carrillera estofada — Carrillera estofada en su salsa de vino tinto, acompañada de rebanadas de pan tostado y patatas paja crujiente.
+📍 Calle Unanimidad, 58, 28041 Madrid
+📞 663 586 170
+✉️ cyntiamtb@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>74</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Carrillera estofada</value></Data>
+        <Data name="Descripción"><value>Carrillera estofada en su salsa de vino tinto, acompañada de rebanadas de pan tostado y patatas paja crujiente.</value></Data>
+        <Data name="Dirección"><value>Calle Unanimidad, 58, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>663 586 170</value></Data>
+        <Data name="Email"><value>cyntiamtb@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/74-el-rincon-de-cintia-tapa.jpg https://miguelfn.github.io/img/74-el-rincon-de-cintia-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.685413,40.359059,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>75. El Zaguán</name>
+      <description>Tortos de harina de maíz con picadillo de chorizo y huevo frito
+📍 Calle Sahara, 52, 28041 Madrid
+📞 631 469 731
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>75</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Tortos de harina de maíz con picadillo de chorizo y huevo frito</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Sahara, 52, 28041 Madrid</value></Data>
+        <Data name="Teléfono"><value>631 469 731</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/75-el-zaguan-tapa.jpg https://miguelfn.github.io/img/75-el-zaguan-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.692543,40.353929,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>76. Majar Cooking Bar</name>
+      <description>Ravioli de ropa vieja — ¿Qué mejor manera de disfrutar la gastronomía que comerse un buen cocido de un solo bocado?
+📍 Calle Clara Schumann, 16, 28021 Madrid
+📞 610 813 738
+✉️ josemanuelblz@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>76</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Ravioli de ropa vieja</value></Data>
+        <Data name="Descripción"><value>¿Qué mejor manera de disfrutar la gastronomía que comerse un buen cocido de un solo bocado?</value></Data>
+        <Data name="Dirección"><value>Calle Clara Schumann, 16, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>610 813 738</value></Data>
+        <Data name="Email"><value>josemanuelblz@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/76-majar-cooking-bar-tapa.jpg https://miguelfn.github.io/img/76-majar-cooking-bar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.685815,40.354476,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>77. Dely Sazón</name>
+      <description>Empanada colombiana — Comida latina.
+📍 Calle Delmira Agustini, 3, 28021 Madrid
+📞 692 488 037
+Instagram: @delysazonmadrid
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#villaverde-bajo</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>77</value></Data>
+        <Data name="Barrio"><value>Villaverde Bajo</value></Data>
+        <Data name="Tapa"><value>Empanada colombiana</value></Data>
+        <Data name="Descripción"><value>Comida latina.</value></Data>
+        <Data name="Dirección"><value>Calle Delmira Agustini, 3, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>692 488 037</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/77-dely-sazon-tapa.jpg https://miguelfn.github.io/img/77-dely-sazon-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.686597,40.354237,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

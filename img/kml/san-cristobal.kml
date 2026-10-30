@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>San Cristóbal</name>
+  <description>10ª Ruta de la Tapa en Villaverde 2026 · 6, 7, 8 y 9 de noviembre · Caña + Tapa: 3,00 € · Organiza: Asociación de Autónomos de Villaverde (vivirvillaverde.com)</description>
+  <Style id="butarque"><IconStyle><color>ffBF5F8B</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="ciudad-de-los-angeles"><IconStyle><color>ff2C9AD3</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="san-cristobal"><IconStyle><color>ff479A4E</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-alto"><IconStyle><color>ff6A36C8</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Style id="villaverde-bajo"><IconStyle><color>ff3577C7</color><scale>1</scale><Icon><href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>
+  <Folder>
+    <name>San Cristóbal</name>
+    <Placemark>
+      <name>23. Churrería Cafetería Los Suárez</name>
+      <description>Pulpo al carbón con palmediel, patata y boniato
+📍 Plaza Pinazo, 22, Local 210, 28021 Madrid
+📞 618 471 241
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>23</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Pulpo al carbón con palmediel, patata y boniato</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza Pinazo, 22, Local 210, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>618 471 241</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/23-churreria-cafeteria-los-suarez-tapa.jpg https://miguelfn.github.io/img/23-churreria-cafeteria-los-suarez-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691593,40.343311,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>24. La Zeta Bar</name>
+      <description>Alitas sweet chili
+📍 Plaza Pinazo, 24, 28021 Madrid
+📞 652 371 111
+✉️ lazetabar@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>24</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Alitas sweet chili</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza Pinazo, 24, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>652 371 111</value></Data>
+        <Data name="Email"><value>lazetabar@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/24-la-zeta-bar-tapa.jpg https://miguelfn.github.io/img/24-la-zeta-bar-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691781,40.34233,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>25. Bar Pinazo</name>
+      <description>Tapa sorpresa
+📍 Plaza Pinazo, 209, 28021 Madrid
+📞 687 670 197
+✉️ cristianaroca12@gmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>25</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza Pinazo, 209, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>687 670 197</value></Data>
+        <Data name="Email"><value>cristianaroca12@gmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/25-bar-pinazo-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691609,40.343256,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>26. Birras y Tapas</name>
+      <description>La Cochinada — Tostada de pan brioche con dos rodajas de queso de cabra, cochinita pibil y cebolla morada encurtida.
+📍 Calle Moncada, 122, 28021 Madrid
+📞 640 974 015
+✉️ marymarqueza@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>26</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>La Cochinada</value></Data>
+        <Data name="Descripción"><value>Tostada de pan brioche con dos rodajas de queso de cabra, cochinita pibil y cebolla morada encurtida.</value></Data>
+        <Data name="Dirección"><value>Calle Moncada, 122, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>640 974 015</value></Data>
+        <Data name="Email"><value>marymarqueza@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/26-birras-y-tapas-tapa.jpg https://miguelfn.github.io/img/26-birras-y-tapas-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691678,40.340692,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>27. Bar Gato Negro</name>
+      <description>Canapés de gulas al ajillo con huevo de codorniz
+📍 Plaza Pinazo, 10, 28021 Madrid
+📞 692 997 091
+✉️ yenny-amarilla1921@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>27</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Canapés de gulas al ajillo con huevo de codorniz</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza Pinazo, 10, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>692 997 091</value></Data>
+        <Data name="Email"><value>yenny-amarilla1921@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/27-bar-gato-negro-tapa.jpg https://miguelfn.github.io/img/27-bar-gato-negro-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691338,40.342315,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>28. Bar La Plaza</name>
+      <description>Tapa sorpresa
+📍 Calle Moncada, 119, Local 109, 28021 Madrid
+📞 692 997 091
+✉️ yenny-amarilla1921@hotmail.com
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>28</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Moncada, 119, Local 109, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>692 997 091</value></Data>
+        <Data name="Email"><value>yenny-amarilla1921@hotmail.com</value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/28-bar-la-plaza-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691107,40.340706,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>29. Bar El Siguiente</name>
+      <description>Tapa sorpresa
+📍 Plaza Pinazo, 211, 28021 Madrid
+📞 652 307 339
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>29</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Plaza Pinazo, 211, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>652 307 339</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/29-bar-el-siguiente-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.691608,40.343195,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>30. El Rincón</name>
+      <description>Tosta de tierno queso, pimiento y chistorra
+📍 Calle Benimamet, 99, 28021 Madrid
+📞 692 521 069
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>30</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Tosta de tierno queso, pimiento y chistorra</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Benimamet, 99, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>692 521 069</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/30-el-rincon-tapa.jpg https://miguelfn.github.io/img/30-el-rincon-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.684721,40.343783,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>31. Los Arcos</name>
+      <description>Tapa sorpresa
+📍 Calle Godella, 71, 28021 Madrid
+📞 603 552 659
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>31</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Godella, 71, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>603 552 659</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/31-los-arcos-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.68863,40.342524,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>32. Cafetería Pérez</name>
+      <description>Tapa sorpresa
+📍 Calle Benimamet, 95, 28021 Madrid
+📞 647 297 339
+Caña + Tapa: 3,00 € · 6–9 noviembre 2026</description>
+      <styleUrl>#san-cristobal</styleUrl>
+      <ExtendedData>
+        <Data name="Nº"><value>32</value></Data>
+        <Data name="Barrio"><value>San Cristóbal</value></Data>
+        <Data name="Tapa"><value>Tapa sorpresa</value></Data>
+        <Data name="Descripción"><value></value></Data>
+        <Data name="Dirección"><value>Calle Benimamet, 95, 28021 Madrid</value></Data>
+        <Data name="Teléfono"><value>647 297 339</value></Data>
+        <Data name="Email"><value></value></Data>
+        <Data name="gx_media_links"><value>https://miguelfn.github.io/img/32-cafeteria-perez-local.jpg</value></Data>
+      </ExtendedData>
+      <Point><coordinates>-3.685062,40.343784,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
