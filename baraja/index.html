@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baraja Española · Juegos de cartas gratis</title>
+<meta name="description" content="Mus, tute, guiñote, cuatrola, pocha, brisca, chinchón, remigio, escoba y cinquillo con la baraja española. Gratis, sin límites y sin registro. Juega con personas o con robots.">
+<meta property="og:title" content="Baraja Española · 10 juegos de cartas gratis">
+<meta property="og:description" content="Mus, tute, guiñote, chinchón, escoba… con personas o con robots. Gratis, sin límites y sin registro.">
+<meta property="og:image" content="img/icono.webp">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/icono.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --granate: #7a1426;
+    --granate-2: #a3202f;
+    --granate-osc: #4a0b17;
+    --oro: #d9a93b;
+    --oro-claro: #f3d27a;
+    --crema: #fffbf3;
+    --crema-2: #fbefd9;
+    --tapete: #1f5e3a;
+    --tapete-osc: #123c25;
+    --texto: #3b2414;
+    --texto-suave: #7a5a3f;
+    --sombra: 0 10px 30px rgba(40, 10, 5, .25);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Nunito", system-ui, sans-serif;
+    color: var(--texto);
+    background: var(--crema);
+    line-height: 1.55;
+    overflow-x: hidden;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: var(--granate); }
+  .envoltura { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+  /* Cabecera */
+  header.barra {
+    position: sticky; top: 0; z-index: 20;
+    background: linear-gradient(180deg, var(--granate-2), var(--granate));
+    border-bottom: 2px solid var(--oro);
+    box-shadow: 0 3px 14px rgba(0,0,0,.25);
+  }
+  header.barra .envoltura { display: flex; align-items: center; gap: 12px; height: 60px; }
+  .marca { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .marca img { width: 40px; height: 40px; border-radius: 10px; }
+  .marca span { font-family: "Cinzel Decorative", serif; color: var(--oro-claro); font-size: 18px; white-space: nowrap; }
+  nav.menu { margin-left: auto; display: flex; gap: 22px; }
+  nav.menu a { color: #fde9c0; text-decoration: none; font-weight: 700; font-size: 15px; }
+  nav.menu a:hover { color: var(--oro-claro); }
+  .boton {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: linear-gradient(180deg, var(--granate-2), var(--granate));
+    color: var(--oro-claro); font-weight: 800; text-decoration: none;
+    padding: 14px 26px; border-radius: 999px; border: 2px solid var(--oro);
+    box-shadow: var(--sombra); transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .boton:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(40,10,5,.35); }
+  .boton svg { width: 22px; height: 22px; flex: none; }
+  .boton.oro { background: linear-gradient(180deg, var(--oro-claro), var(--oro)); color: var(--granate-osc); border-color: #fff3d0; }
+  .boton.pequeno { padding: 8px 16px; font-size: 14px; box-shadow: none; }
+
+  /* Portada */
+  .portada {
+    position: relative;
+    background:
+      radial-gradient(ellipse at 50% 30%, rgba(255,255,255,.10), transparent 60%),
+      radial-gradient(ellipse at center, var(--tapete) 0%, var(--tapete-osc) 100%);
+    color: #fff; overflow: hidden;
+    padding: 70px 0 90px;
+  }
+  .portada::after {
+    content: ""; position: absolute; inset: auto 0 0 0; height: 60px;
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,.25));
+  }
+  .portada .envoltura { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; position: relative; z-index: 1; }
+  .sello {
+    display: inline-block; padding: 6px 14px; border-radius: 999px;
+    background: rgba(0,0,0,.28); border: 1px solid rgba(243,210,122,.6);
+    color: var(--oro-claro); font-weight: 800; font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+  }
+  .portada h1 {
+    font-family: "Cinzel Decorative", serif; font-size: clamp(36px, 6vw, 64px); line-height: 1.05;
+    margin: 18px 0 14px; color: var(--oro-claro); text-shadow: 0 3px 0 var(--granate-osc), 0 8px 24px rgba(0,0,0,.4);
+  }
+  .portada p.lema { font-size: clamp(17px, 2.2vw, 21px); color: #eaf5ec; max-width: 34em; margin: 0 0 26px; }
+  .portada .acciones { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  .portada .nota { margin-top: 16px; font-size: 14px; color: #cfe6d5; }
+  .abanico { position: relative; height: 300px; margin-bottom: 18px; }
+  .abanico img {
+    position: absolute; left: 50%; bottom: 0; width: 120px; border-radius: 9px;
+    box-shadow: 0 10px 22px rgba(0,0,0,.45); transform-origin: 50% 110%;
+    animation: abre 1.1s cubic-bezier(.2,.9,.3,1.2) both;
+  }
+  .abanico img:nth-child(1) { --g: -30deg; animation-delay: .05s; }
+  .abanico img:nth-child(2) { --g: -10deg; animation-delay: .15s; }
+  .abanico img:nth-child(3) { --g: 10deg; animation-delay: .25s; }
+  .abanico img:nth-child(4) { --g: 30deg; animation-delay: .35s; }
+  @keyframes abre {
+    from { transform: translateX(-50%) rotate(0deg); opacity: 0; }
+    to { transform: translateX(-50%) rotate(var(--g)); opacity: 1; }
+  }
+  .movil {
+    width: min(240px, 70vw); margin: 0 auto; border-radius: 34px; padding: 10px;
+    background: #111; box-shadow: 0 30px 60px rgba(0,0,0,.5), inset 0 0 0 2px #333;
+  }
+  .movil img { border-radius: 26px; }
+  .portada .lado { position: relative; }
+  .portada .lado .movil { transform: rotate(4deg); }
+
+  /* Ventajas */
+  .ventajas { margin-top: -50px; position: relative; z-index: 2; }
+  .ventajas .rejilla { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+  .carta {
+    background: linear-gradient(180deg, var(--crema), var(--crema-2));
+    border: 1.5px solid var(--oro); border-radius: 20px; padding: 22px;
+    box-shadow: var(--sombra); position: relative;
+  }
+  .carta::before {
+    content: ""; position: absolute; inset: 6px; border-radius: 15px;
+    border: .8px solid rgba(217,169,59,.45); pointer-events: none;
+  }
+  .carta h3 { font-family: "Cinzel", serif; color: var(--granate); margin: 6px 0 6px; font-size: 20px; }
+  .carta p { margin: 0; color: var(--texto-suave); }
+  .icono-palo { width: 44px; height: 44px; }
+
+  section { padding: 80px 0; }
+  .titulo { text-align: center; margin-bottom: 40px; }
+  .titulo h2 { font-family: "Cinzel Decorative", serif; color: var(--granate); font-size: clamp(28px, 4vw, 40px); margin: 0 0 8px; }
+  .titulo p { color: var(--texto-suave); margin: 0 auto; max-width: 40em; font-size: 18px; }
+  .filete { width: 120px; height: 3px; margin: 14px auto 0; background: linear-gradient(90deg, transparent, var(--oro), transparent); }
+
+  /* Juegos */
+  .juegos .rejilla { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; }
+  .juego {
+    background: #fff; border: 1.5px solid var(--oro); border-radius: 18px; padding: 14px 14px 16px;
+    text-align: center; box-shadow: 0 6px 18px rgba(60,30,10,.12);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .juego:hover { transform: translateY(-4px) rotate(-.5deg); box-shadow: 0 14px 30px rgba(60,30,10,.2); }
+  .juego img { width: 100%; max-width: 150px; margin: 0 auto 8px; aspect-ratio: 1; object-fit: contain; }
+  .juego h3 { font-family: "Cinzel", serif; color: var(--granate); margin: 0 0 4px; font-size: 18px; }
+  .juego p { margin: 0; font-size: 14px; color: var(--texto-suave); line-height: 1.4; }
+
+  /* Bloques alternos */
+  .bloque { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 50px; align-items: center; }
+  .bloque.invertido .texto { order: 2; }
+  .bloque h2 { font-family: "Cinzel Decorative", serif; color: var(--granate); font-size: clamp(26px, 3.4vw, 36px); margin: 0 0 14px; }
+  .bloque p { font-size: 17px; }
+  .lista { list-style: none; padding: 0; margin: 18px 0 0; }
+  .lista li { position: relative; padding-left: 34px; margin-bottom: 12px; }
+  .lista li::before {
+    content: ""; position: absolute; left: 0; top: 2px; width: 22px; height: 22px;
+    background: url("img/suit_o.webp") center/contain no-repeat;
+  }
+  .lista.copas li::before { background-image: url("img/suit_c.webp"); }
+  .lista.espadas li::before { background-image: url("img/suit_e.webp"); }
+  .lista.bastos li::before { background-image: url("img/suit_b.webp"); }
+  .lista b { color: var(--granate); }
+  .pareja { display: flex; justify-content: center; gap: 18px; }
+  .pareja .movil { width: min(230px, 42vw); }
+  .pareja .movil:nth-child(1) { transform: rotate(-4deg) translateY(10px); }
+  .pareja .movil:nth-child(2) { transform: rotate(4deg); }
+
+  .fondo-tapete {
+    background: radial-gradient(ellipse at center, var(--tapete) 0%, var(--tapete-osc) 100%);
+    color: #eef7f0;
+  }
+  .fondo-tapete .bloque h2, .fondo-tapete .titulo h2 { color: var(--oro-claro); }
+  .fondo-tapete .lista b { color: var(--oro-claro); }
+  .fondo-tapete .titulo p { color: #cfe6d5; }
+  .fondo-crema { background: linear-gradient(180deg, var(--crema-2), var(--crema)); }
+
+  /* Ligera y reparto limpio */
+  .dos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; }
+  .dos .carta { padding: 30px 28px; }
+  .dos .carta h3 { font-size: 24px; margin-bottom: 12px; }
+  .dos .carta p { font-size: 16.5px; margin-bottom: 12px; }
+  .dos .carta p:last-child { margin-bottom: 0; }
+  .dos .carta p b { color: var(--granate); }
+  .barras { margin: 20px 0 18px; display: grid; gap: 12px; }
+  .barra-fila span { display: flex; justify-content: space-between; font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+  .barra-fila span em { font-style: normal; color: var(--granate); }
+  .pista { height: 18px; border-radius: 999px; background: rgba(122,20,38,.08); overflow: hidden; }
+  .pista i { display: block; height: 100%; border-radius: 999px; }
+  .pista i.otros { width: 100%; background: repeating-linear-gradient(90deg, #b9a48c 0 9.6%, #d8c7b1 9.6% 10%); }
+  .pista i.nuestra { width: 2.2%; min-width: 14px; background: linear-gradient(90deg, var(--oro), var(--granate-2)); }
+  .reparto-cartas { display: flex; justify-content: center; gap: 0; margin: 6px 0 20px; height: 110px; }
+  .reparto-cartas img { width: 64px; border-radius: 6px; box-shadow: 0 6px 14px rgba(0,0,0,.25); margin: 0 -8px; }
+  .reparto-cartas img:nth-child(1) { transform: rotate(-12deg) translateY(10px); }
+  .reparto-cartas img:nth-child(2) { transform: rotate(-4deg); }
+  .reparto-cartas img:nth-child(3) { transform: rotate(4deg); }
+  .reparto-cartas img:nth-child(4) { transform: rotate(12deg) translateY(10px); }
+
+  /* Galería */
+  .galeria { display: flex; gap: 22px; overflow-x: auto; padding: 10px 4px 26px; scroll-snap-type: x mandatory; }
+  .galeria figure { margin: 0; flex: 0 0 auto; scroll-snap-align: center; text-align: center; }
+  .galeria .movil { width: 220px; }
+  .galeria figcaption { margin-top: 12px; font-weight: 700; color: var(--oro-claro); }
+
+  /* Cifras */
+  .cifras { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; text-align: center; }
+  .cifra strong { display: block; font-family: "Cinzel Decorative", serif; font-size: 44px; color: var(--granate); line-height: 1.1; }
+  .cifra span { color: var(--texto-suave); font-weight: 700; }
+
+  /* Llamada final */
+  .final {
+    background: linear-gradient(180deg, var(--granate-2), var(--granate-osc));
+    color: #fde9c0; text-align: center; border-top: 3px solid var(--oro);
+  }
+  .final img.icono { width: 110px; height: 110px; border-radius: 24px; margin: 0 auto 18px; box-shadow: 0 12px 30px rgba(0,0,0,.4); }
+  .final h2 { font-family: "Cinzel Decorative", serif; color: var(--oro-claro); font-size: clamp(28px, 4vw, 42px); margin: 0 0 10px; }
+  .final p { font-size: 18px; margin: 0 auto 26px; max-width: 34em; }
+
+  footer { background: #2b0710; color: #c9a98c; font-size: 14px; padding: 26px 0; text-align: center; }
+  footer a { color: var(--oro-claro); }
+
+  .aparece { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+  .aparece.visible { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .aparece { opacity: 1; transform: none; transition: none; }
+    .abanico img { animation: none; transform: translateX(-50%) rotate(var(--g)); }
+  }
+
+  @media (max-width: 960px) {
+    .juegos .rejilla { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    nav.menu { display: none; }
+  }
+  @media (max-width: 760px) {
+    .portada { padding: 40px 0 80px; }
+    .portada .envoltura, .bloque { grid-template-columns: minmax(0, 1fr); }
+    .portada .envoltura { text-align: center; }
+    .portada p.lema { margin-left: auto; margin-right: auto; }
+    .portada .acciones { justify-content: center; }
+    .portada .lado { display: none; }
+    .abanico { height: 220px; }
+    .abanico img { width: 92px; }
+    .bloque.invertido .texto { order: 0; }
+    .ventajas .rejilla, .dos { grid-template-columns: minmax(0, 1fr); }
+    .cifras { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .juegos .rejilla { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+    section { padding: 60px 0; }
+    .marca span { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div class="envoltura">
+    <a class="marca" href="#">
+      <img src="img/icono.webp" alt="">
+      <span>Baraja Española</span>
+    </a>
+    <nav class="menu">
+      <a href="#juegos">Juegos</a>
+      <a href="#jugar">Cómo se juega</a>
+      <a href="#gustos">A tu gusto</a>
+    </nav>
+    <a class="boton oro pequeno" href="https://play.google.com/store/apps/details?id=es.mafn.michat">Descargar</a>
+  </div>
+</header>
+
+<main>
+  <div class="portada">
+    <div class="envoltura">
+      <div>
+        <div class="abanico" aria-hidden="true">
+          <img src="img/card_cla_o1.webp" alt="">
+          <img src="img/card_cla_c1.webp" alt="">
+          <img src="img/card_cla_e1.webp" alt="">
+          <img src="img/card_cla_b1.webp" alt="">
+        </div>
+        <span class="sello">Gratis · Sin límites · Sin registro</span>
+        <h1>Baraja Española</h1>
+        <p class="lema">Las cartas de toda la vida en tu móvil: mus, tute, guiñote, cuatrola, pocha, brisca, chinchón, remigio, escoba y cinquillo. Con personas de verdad o con robots que juegan con cabeza.</p>
+        <div class="acciones">
+          <a class="boton oro" href="https://play.google.com/store/apps/details?id=es.mafn.michat">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l9.9-10.2zm11.3 8.8 2.9-3L5 .4c-.4-.2-.8-.3-1.1-.2zm0 2.8-11 10.4c.3.1.7 0 1.1-.2l12.8-7.2zm4.2-4.6-3 1.7L13.4 12l2.7 2.6 3-1.7c.9-.5.9-1.9 0-2.4z"/></svg>
+            Descárgala en Google Play
+          </a>
+        </div>
+        <p class="nota">Para Android. Elige un nick y a jugar: sin correo, sin teléfono, sin datos personales.</p>
+      </div>
+      <div class="lado">
+        <div class="movil"><img src="img/captura_mesa.webp" alt="Partida de brisca en la app" width="540" height="1230"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ventajas">
+    <div class="envoltura rejilla">
+      <div class="carta aparece">
+        <img class="icono-palo" src="img/suit_o.webp" alt="">
+        <h3>Totalmente gratis</h3>
+        <p>Todos los juegos y todas las opciones, sin pagar nada.</p>
+      </div>
+      <div class="carta aparece">
+        <img class="icono-palo" src="img/suit_c.webp" alt="">
+        <h3>Sin límites</h3>
+        <p>Juega todas las partidas que quieras: sin vidas, sin fichas y sin esperas.</p>
+      </div>
+      <div class="carta aparece">
+        <img class="icono-palo" src="img/suit_e.webp" alt="">
+        <h3>Sin registro</h3>
+        <p>Solo un nick. Si quieres conservarlo en otro móvil, ponle una contraseña.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="juegos" id="juegos">
+    <div class="envoltura">
+      <div class="titulo aparece">
+        <h2>10 juegos clásicos</h2>
+        <p>Con las reglas tradicionales de cada uno y las opciones de mesa de siempre, para que te sientas como en una partida de bar.</p>
+        <div class="filete"></div>
+      </div>
+      <div class="rejilla">
+        <article class="juego aparece">
+          <img src="img/juego_mus.webp" alt="Mus" loading="lazy">
+          <h3>Mus</h3>
+          <p>Por parejas, a 30 o 40, con 8 o 4 reyes y con señas o sin ellas. Envites y órdagos.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_tute.webp" alt="Tute" loading="lazy">
+          <h3>Tute</h3>
+          <p>Por parejas o de 2, 3 o 4. Habanero, arrastrado y tute cabrón.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_guinote.webp" alt="Guiñote" loading="lazy">
+          <h3>Guiñote</h3>
+          <p>Por parejas o de 2, con cantes, cambio del 7, arrastre y vueltas.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_cuatrola.webp" alt="Cuatrola" loading="lazy">
+          <h3>Cuatrola</h3>
+          <p>El clásico de parejas con solos, cuatrolas y quintolas.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_pocha.webp" alt="Pocha" loading="lazy">
+          <h3>Pocha</h3>
+          <p>De 3 o 4: apuesta las bazas que vas a hacer y clávalas.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_brisca.webp" alt="Brisca" loading="lazy">
+          <h3>Brisca</h3>
+          <p>Por parejas o de 2, con el cambio del 7 y del 2.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_chinchon.webp" alt="Chinchón" loading="lazy">
+          <h3>Chinchón</h3>
+          <p>De 2 a 4. Elimina a los demás y cierra con chinchón.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_remigio.webp" alt="Remigio" loading="lazy">
+          <h3>Remigio</h3>
+          <p>Con dos barajas y comodines, de 2 a 4 jugadores.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_escoba.webp" alt="Escoba" loading="lazy">
+          <h3>Escoba</h3>
+          <p>La escoba del 15, por parejas o de 2, 3 o 4, a 15, 21 o 31.</p>
+        </article>
+        <article class="juego aparece">
+          <img src="img/juego_cinquillo.webp" alt="Cinquillo" loading="lazy">
+          <h3>Cinquillo</h3>
+          <p>De 2, 3 o 4. Empieza el cinco de oros; mano a mano, con pozo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="fondo-crema">
+    <div class="envoltura">
+      <div class="titulo aparece">
+        <h2>Hecha por alguien que juega</h2>
+        <p>Nació de las ganas de tener una app de cartas como las de antes: que no se coma el móvil y en la que la suerte sea suerte de verdad.</p>
+        <div class="filete"></div>
+      </div>
+      <div class="dos">
+        <div class="carta aparece">
+          <h3>Diez juegos en lo que ocupa uno</h3>
+          <p>Hay juegos de cartas que piden <b>más de 100 MB cada uno</b>. Si quieres tener el mus, el chinchón y la escoba, son tres descargas enormes y el móvil avisando de que no queda espacio.</p>
+          <div class="barras" aria-hidden="true">
+            <div class="barra-fila">
+              <span>Diez juegos sueltos de los habituales <em>más de 1.000 MB</em></span>
+              <div class="pista"><i class="otros"></i></div>
+            </div>
+            <div class="barra-fila">
+              <span>Baraja Española, los diez juntos <em>unos 20 MB</em></span>
+              <div class="pista"><i class="nuestra"></i></div>
+            </div>
+          </div>
+          <p>Aquí están <b>los diez por poco más de 20 MB</b>, menos que unas cuantas fotos. Se descarga en un momento aunque tengas pocos datos, cabe en cualquier móvil y no tendrás que borrar nada para hacerle sitio.</p>
+        </div>
+        <div class="carta aparece">
+          <h3>Las cartas, como en la mesa</h3>
+          <div class="reparto-cartas" aria-hidden="true">
+            <img src="img/card_cla_e1.webp" alt="">
+            <img src="img/card_cla_o1.webp" alt="">
+            <img src="img/card_cla_b1.webp" alt="">
+            <img src="img/card_cla_c1.webp" alt="">
+          </div>
+          <p>¿Te ha pasado en otros juegos que las manos parecen escritas de antemano? Aquí <b>las cartas se reparten al azar e igual para todos</b>: da igual cuánto juegues, quién seas o si nunca has pagado nada, porque aquí no hay nada que pagar que cambie tu suerte.</p>
+          <p>Y cada juego se reparte <b>como se hace de verdad</b>. En la cuatrola, por ejemplo, las cartas apenas se barajan entre mano y mano: se juntan las bazas, se mezclan un poco, se corta y se dan de tres en tres y de dos en dos, como en cualquier partida de bar.</p>
+          <p>Si te llega una mano mala, es que te ha tocado. Y la buena, también.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fondo-tapete" id="jugar">
+    <div class="envoltura bloque">
+      <div class="texto aparece">
+        <h2>Con personas o con robots</h2>
+        <p>Siéntate en una mesa con sitio libre o crea la tuya. Y si no quieres esperar, complétala con robots y empieza al momento.</p>
+        <ul class="lista">
+          <li><b>Robots que piensan:</b> cuentan cartas, apuestan y hasta se tiran faroles en el mus.</li>
+          <li><b>Mesas privadas</b> con contraseña para jugar solo con tus amigos.</li>
+          <li><b>Tu ritmo:</b> turbo, normal o tortuga.</li>
+          <li><b>Pausa</b> cuando te surja algo, chat con la mesa y emociones.</li>
+        </ul>
+      </div>
+      <div class="pareja aparece">
+        <div class="movil"><img src="img/captura_nueva.webp" alt="Elegir juego para una mesa nueva" loading="lazy"></div>
+        <div class="movil"><img src="img/captura_ritmo.webp" alt="Elegir el ritmo de la partida" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fondo-crema">
+    <div class="envoltura bloque invertido">
+      <div class="texto aparece">
+        <h2>Aprende a jugar</h2>
+        <p>¿Nunca has jugado al mus o al guiñote? Cada juego trae su manual, con ejemplos de cartas, para empezar desde cero.</p>
+        <ul class="lista copas">
+          <li>Cómo se reparte y cómo se juega.</li>
+          <li><b>Cómo se cuentan los puntos</b>, con tablas y ejemplos.</li>
+          <li>Las opciones de mesa explicadas y consejos para ganar.</li>
+        </ul>
+      </div>
+      <div class="pareja aparece">
+        <div class="movil"><img src="img/captura_mus.webp" alt="Reglas de una mesa de mus" loading="lazy"></div>
+        <div class="movil"><img src="img/captura_pausa.webp" alt="Pedir una pausa en la partida" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fondo-tapete" id="gustos">
+    <div class="envoltura">
+      <div class="titulo aparece">
+        <h2>A tu gusto</h2>
+        <p>Diez barajas, muchos reversos y tapetes, cartas ordenadas o con aspecto realista, y más de 100 avatares.</p>
+        <div class="filete"></div>
+      </div>
+      <div class="galeria aparece">
+        <figure>
+          <div class="movil"><img src="img/captura_mesa.webp" alt="Mesa sobre tapete verde" loading="lazy"></div>
+          <figcaption>Tapete clásico</figcaption>
+        </figure>
+        <figure>
+          <div class="movil"><img src="img/captura_madera.webp" alt="Mesa sobre madera" loading="lazy"></div>
+          <figcaption>Mesa de madera</figcaption>
+        </figure>
+        <figure>
+          <div class="movil"><img src="img/captura_gustos.webp" alt="Elegir baraja, reverso y tapete" loading="lazy"></div>
+          <figcaption>Baraja, reverso y tapete</figcaption>
+        </figure>
+        <figure>
+          <div class="movil"><img src="img/captura_nueva.webp" alt="Nueva mesa" loading="lazy"></div>
+          <figcaption>Diez juegos</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="envoltura bloque">
+      <div class="texto aparece">
+        <h2>Progresa y compite</h2>
+        <p>Cada partida suma. Sube de nivel en cada juego, consigue logros y escala en el ranking.</p>
+        <ul class="lista espadas">
+          <li><b>Experiencia y logros:</b> escobas, órdagos ganados, cantes, chinchones, cuatrolas…</li>
+          <li><b>Ranking general</b> y ranking de cada juego.</li>
+          <li>Tu perfil con tus victorias y derrotas.</li>
+        </ul>
+        <h2 style="margin-top:34px">Juego limpio</h2>
+        <ul class="lista bastos">
+          <li>Chat moderado, sin insultos ni palabrotas.</li>
+          <li>Puedes denunciar o bloquear a cualquier jugador.</li>
+        </ul>
+      </div>
+      <div class="aparece" style="display:flex;justify-content:center;gap:24px;align-items:flex-end">
+        <img src="img/art_trophy_1.webp" alt="" style="width:160px" loading="lazy">
+        <img src="img/art_ranking.webp" alt="" style="width:130px" loading="lazy">
+        <img src="img/art_bot.webp" alt="" style="width:110px" loading="lazy">
+      </div>
+    </div>
+    <div class="envoltura" style="margin-top:60px">
+      <div class="cifras aparece">
+        <div class="cifra"><strong>10</strong><span>juegos</span></div>
+        <div class="cifra"><strong>10</strong><span>barajas</span></div>
+        <div class="cifra"><strong>100+</strong><span>avatares</span></div>
+        <div class="cifra"><strong>0 €</strong><span>siempre</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="envoltura aparece">
+      <img class="icono" src="img/icono.webp" alt="Icono de Baraja Española">
+      <h2>¿Echamos una partida?</h2>
+      <p>Descarga Baraja Española gratis y juega ahora mismo, con amigos, con gente de todas partes o contra los robots.</p>
+      <a class="boton oro" href="https://play.google.com/store/apps/details?id=es.mafn.michat">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l9.9-10.2zm11.3 8.8 2.9-3L5 .4c-.4-.2-.8-.3-1.1-.2zm0 2.8-11 10.4c.3.1.7 0 1.1-.2l12.8-7.2zm4.2-4.6-3 1.7L13.4 12l2.7 2.6 3-1.7c.9-.5.9-1.9 0-2.4z"/></svg>
+        Descárgala en Google Play
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="envoltura">
+    Baraja Española · ¿Ves algún problema o tienes una idea? Escríbenos a <a href="mailto:miguelfn@gmail.com">miguelfn@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+  // Aparecen al entrar en pantalla.
+  (function () {
+    var els = document.querySelectorAll('.aparece');
+    if (!('IntersectionObserver' in window)) {
+      els.forEach(function (e) { e.classList.add('visible'); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('visible'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.12 });
+    els.forEach(function (e) { io.observe(e); });
+  })();
+</script>
+</body>
+</html>
