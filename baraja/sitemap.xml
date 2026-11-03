@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://DOMINIO/</loc>
+    <loc>https://miguelfn.github.io/baraja/</loc>
     <lastmod>2026-11-03</lastmod>
-    <image:image><image:loc>https://DOMINIO/img/compartir.webp</image:loc></image:image>
-    <image:image><image:loc>https://DOMINIO/img/captura_mesa.webp</image:loc></image:image>
-    <image:image><image:loc>https://DOMINIO/img/captura_mus.webp</image:loc></image:image>
+    <image:image><image:loc>https://miguelfn.github.io/baraja/img/compartir.webp</image:loc></image:image>
+    <image:image><image:loc>https://miguelfn.github.io/baraja/img/captura_mesa.webp</image:loc></image:image>
+    <image:image><image:loc>https://miguelfn.github.io/baraja/img/captura_mus.webp</image:loc></image:image>
   </url>
 </urlset>
