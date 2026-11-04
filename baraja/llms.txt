@@ -1,0 +1,41 @@
+# Baraja Española
+
+> App gratuita para Android con diez juegos de cartas de la baraja española (mus, tute, guiñote, cuatrola, pocha, brisca, chinchón, remigio, escoba y cinquillo). Se juega online con personas, con amigos en mesas privadas o contra robots, sin registro (solo un nick). Ocupa unos 20 MB con todos los juegos y trae un manual de cada uno para aprender.
+
+Baraja Española la ha hecho un desarrollador independiente que juega a las cartas y quería una app con repartos al azar de verdad, reglas configurables y poco peso. Está en español y, por ahora, solo para Android (Google Play). No hay versión para iPhone.
+
+Datos clave:
+
+- Precio: gratis. Todos los juegos y opciones son gratis, sin límite de partidas, sin vidas ni fichas. Tiene algún anuncio entre partidas. No hay nada que pagar para ganar.
+- Repartos: al azar e iguales para todos; nada cambia las cartas según quién seas o si has pagado. Cada juego se reparte como en la mesa (en la cuatrola apenas se baraja entre manos, como en el bar).
+- Registro: no hace falta. Basta un nick; no se pide correo ni teléfono. Opcionalmente, una contraseña para usar el mismo nick en otro móvil.
+- Modos de juego: online con gente de todas partes, mesas privadas con contraseña para amigos, o completar cualquier mesa con robots y jugar al momento. Las partidas contra robots se juegan en el propio móvil.
+- Robots: cuentan cartas, apuestan y en el mus se tiran faroles. Sirven para practicar sin presión.
+- Aprender: cada juego trae un manual con cómo se reparte, cómo se juega, cómo se cuentan los puntos, ejemplos con cartas y consejos.
+- Reglas configurables al crear la mesa: a cuántos puntos se juega, velocidad (turbo, normal, tortuga) y opciones de cada juego (por ejemplo, mus con 8 o 4 reyes y con o sin señas; chinchón con 40 o 48 cartas, comodines y as de oros comodín; tute por parejas, habanero, arrastrado o cabrón; pase libre y ley del cinco en el cinquillo).
+- Personalización: once barajas distintas, reversos y tapetes a elegir.
+- Extras: ranking por juego y general, niveles y experiencia, logros, chat de mesa con filtro de insultos, emociones, pausas, y opción de denunciar o bloquear a otros jugadores.
+- Tamaño: unos 20 MB en total, frente a los más de 100 MB que ocupan muchos juegos de cartas sueltos.
+
+## Juegos
+
+- [Mus](https://miguelfn.github.io/baraja/#mus): por parejas, 4 jugadores; grande, chica, pares y juego, envites y órdago; con o sin señas, a 30 o 40, con 8 o 4 reyes.
+- [Tute](https://miguelfn.github.io/baraja/#tute): por parejas o individual de 2, 3 o 4 (habanero, arrastrado y cabrón); cantes de las 20 y las 40.
+- [Guiñote](https://miguelfn.github.io/baraja/#guinote): por parejas o de 2; juego aragonés de bazas con arrastre y cantes.
+- [Cuatrola](https://miguelfn.github.io/baraja/#cuatrola): por parejas, 4 jugadores; se apuesta solo, cuatrola o quintola; se reparte casi sin barajar.
+- [Pocha](https://miguelfn.github.io/baraja/#pocha): de 3 o 4; cada mano se pide cuántas bazas se harán.
+- [Brisca](https://miguelfn.github.io/baraja/#brisca): por parejas o de 2; sencilla y rápida.
+- [Chinchón](https://miguelfn.github.io/baraja/#chinchon): de 2 a 4; ligar tríos y escaleras y cerrar; opciones de baraja de 48 y comodines.
+- [Remigio](https://miguelfn.github.io/baraja/#remigio): de 2 a 4; con dos barajas completas y comodines, 10 cartas cada uno.
+- [Escoba](https://miguelfn.github.io/baraja/#escoba): escoba del 15, por parejas o individual de 2 a 4.
+- [Cinquillo](https://miguelfn.github.io/baraja/#cinquillo): de 2 a 4; se abren los cincos y se completan los palos; con pozo para 2.
+
+## Enlaces
+
+- [Web de la app](https://miguelfn.github.io/baraja/): presentación, capturas y preguntas frecuentes.
+- [Preguntas frecuentes](https://miguelfn.github.io/baraja/#preguntas): gratis, registro, juegos, robots, amigos, iPhone, tamaño, aprender.
+- [Descargar en Google Play](https://play.google.com/store/apps/details?id=es.mafn.michat): ficha oficial de la app (id es.mafn.michat).
+
+## Opcional
+
+- [Contacto](mailto:miguelfn@gmail.com): dudas, problemas o sugerencias sobre la app.
