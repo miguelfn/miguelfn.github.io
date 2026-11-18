@@ -1,1 +1,13 @@
-
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "es.mafn.michat",
+      "sha256_cert_fingerprints": [
+        "DD:A4:F8:76:E1:0B:5C:B9:BA:88:7A:36:B4:50:2A:B7:47:6B:4A:0B:F2:97:2D:02:32:9D:CD:CE:F5:7F:02:1E",
+        "E9:D9:10:FC:21:61:B5:3A:8B:74:7A:70:25:F2:33:42:C1:20:27:3C:D2:80:CA:FE:DF:10:3C:6D:C4:0D:24:32"
+      ]
+    }
+  }
+]
