@@ -1,0 +1,64 @@
+/* Página de invitación: tapete verde, tarjeta crema con borde dorado y botón granate, como la app. */
+:root {
+  --felt: #1f5a3a;
+  --felt-dark: #0f3322;
+  --cream: #fffbf3;
+  --cream-2: #fbefd9;
+  --gold: #d4a94a;
+  --burgundy: #8e1b2c;
+  --gold-text: #ffe082;
+  --brown: #5d4037;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--brown);
+  background: radial-gradient(ellipse at 50% 35%, #2e7a50 0%, var(--felt) 45%, var(--felt-dark) 100%);
+}
+.card {
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  padding: 28px 22px 24px;
+  border-radius: 26px;
+  border: 1.5px solid var(--gold);
+  background: linear-gradient(var(--cream), var(--cream-2));
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .45), inset 0 0 0 6px var(--cream), inset 0 0 0 6.8px rgba(212, 169, 74, .35);
+}
+.art { width: 132px; height: 132px; object-fit: contain; display: block; margin: 0 auto 8px; }
+h1 {
+  font-family: "Cinzel Decorative", Georgia, serif;
+  font-size: 1.45rem;
+  line-height: 1.25;
+  color: var(--burgundy);
+  margin: 4px 0 12px;
+}
+p { margin: 0 0 18px; font-size: 1rem; line-height: 1.45; }
+.small { font-size: .88rem; color: #8d6e63; margin: 16px 0 0; }
+.btn {
+  display: block;
+  padding: 15px 18px;
+  border-radius: 999px;
+  background: var(--burgundy);
+  color: var(--gold-text);
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  border: 2px solid var(--gold);
+  box-shadow: 0 4px 12px rgba(142, 27, 44, .35);
+}
+.btn:active { transform: translateY(1px); }
+.link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--burgundy);
+  font-weight: 600;
+  text-decoration: underline;
+}
+[hidden] { display: none !important; }
